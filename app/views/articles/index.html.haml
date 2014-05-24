@@ -1,28 +1,18 @@
-%h1 Listing articles
-
-%table
+%h1 <i class="fi-star"></i> Listing articles
+%hr
+- @articles.each do |article|
   %tr
-    %th Name
-    %th Image
-    %th Content
-    %th Category
-    %th Summary
-    %th Keyword
-    %th
-    %th
-    %th
-
-  - @articles.each do |article|
-    %tr
-      %td= article.name
-      %td= article.image
-      %td= article.content
-      %td= article.category_id
-      %td= article.summary
-      %td= article.keyword
-      %td= link_to 'Show', article
-      %td= link_to 'Edit', edit_article_path(article)
-      %td= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }
+    %h3= article.name
+    = article.image
+    = truncate_html((markdown article.content), length: 250)
+    = article.category.name if article.category.present?
+    = article.summary
+    = article.keyword
+    %hr
+    %ul.button-group.radius
+      %li= link_to 'Show', article, class: "button success"
+      %li= link_to 'Edit', edit_article_path(article), class: "button"
+      %li= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "button alert"
 
 %br
 

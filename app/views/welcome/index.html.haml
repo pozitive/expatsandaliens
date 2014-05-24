@@ -1,0 +1,15 @@
+- content_for :top do
+  .hero
+    .row
+      .columns.small-12
+        %ul.example-orbit{data: {orbit: "", options: "animation: slide; bullets: false; paus_on_hover: false;"}}
+          %li= image_tag("slide/slide-1.jpg")
+          %li= image_tag("slide/slide-2.jpg")
+          %li= image_tag("slide/slide-3.jpg")
+  .recent
+    .row
+      .columns.small-12
+        %h1 <i class="fi-star"></i>Recent articles
+
+%h1 Welcome#index
+%p Find me in app/views/welcome/index.html.haml

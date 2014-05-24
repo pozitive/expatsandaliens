@@ -1,16 +1,16 @@
 development:
   adapter: postgresql
-  database: brettdb_develpment
+  database: gnddb_develpment
   pool: 5
   timeout: 5000
 
 test:
   adapter: postgresql
-  database: brettdb_test
+  database: gnddb_test
   pool: 5
   timeout: 5000
 production:
   adapter: postgresql
-  database: brettdb_production
+  database: gnddb_production
   pool: 5
   timeout: 5000

@@ -1,20 +1,12 @@
-%h1 Listing categories
-
-%table
-  %tr
-    %th Name
-    %th Description
-    %th
-    %th
-    %th
-
-  - @categories.each do |category|
-    %tr
-      %td= category.name
-      %td= category.description
-      %td= link_to 'Show', category
-      %td= link_to 'Edit', edit_category_path(category)
-      %td= link_to 'Destroy', category, :method => :delete, :data => { :confirm => 'Are you sure?' }
+%h1 <i class="fi-star"></i> Listing categories
+%hr
+- @categories.each do |category|
+  %h3=  category.name
+  = truncate_html((markdown category.description), length: 250)
+  %ul.button-group.radius
+    %li= link_to 'Show', category, class:  'button success'
+    %li= link_to 'Edit', edit_category_path(category), class:  'button'
+    %li= link_to 'Destroy', category, :method => :delete, :data => { :confirm => 'Are you sure?' } ,class:  'button alert'
 
 %br
 

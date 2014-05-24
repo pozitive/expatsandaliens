@@ -18,7 +18,8 @@ gem 'redcarpet'
 gem 'ancestry'
 gem 'friendly_id'
 gem 'yaml_db', github: 'jetthoughts/yaml_db', ref: 'fb4b6bd7e12de3cffa93e0a298a1e5253d7e92ba'
-
+gem 'mini_magick'
+gem 'truncate_html'
 
 # gem 'debugger', group: [:development, :test] # Use debugger
 gem 'sdoc', '~> 0.4.0',          group: :doc

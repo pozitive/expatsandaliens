@@ -1,0 +1,14 @@
+%header.sticky.header
+  %nav.top-bar{data: {topbar: "", options: "is_hover: false"}}
+    %ul.title-area
+      %li.name
+        %h1= link_to "GnD life style", root_path
+      %li.toggle-topbar.menu-icon
+        %a <span>Menu</span>
+
+    %section.top-bar-section
+      %ul.right
+        %li= nav_link "HOME", root_path
+        - Category.all.each do |category|
+          %li=  nav_link category.name.upcase, category_path(category)
+        
