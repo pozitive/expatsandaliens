@@ -23,6 +23,7 @@ gem 'truncate_html'
 gem 'figaro'
 gem 'carrierwave'
 gem 'fog'
+gem 'devise'
 # gem 'carrierwave_direct'
 # gem 'sidekiq'
 

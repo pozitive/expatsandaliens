@@ -1,19 +1,28 @@
-%h1 <i class="fi-star"></i> Listing articles
+= notice
+
+%ul.breadcrumbs
+  %li= link_to 'Home', root_path
+  %li= link_to 'Blogs', articles_path
+
+%h1 Listing articles
 %hr
 - @articles.each do |article|
-  %tr
-    %h3= article.name
-    = article.image
-    = truncate_html((markdown article.content), length: 250)
-    = article.category.name if article.category.present?
-    = article.summary
-    = article.keyword
-    %hr
-    %ul.button-group.radius
-      %li= link_to 'Show', article, class: "button success"
-      %li= link_to 'Edit', edit_article_path(article), class: "button"
-      %li= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "button alert"
-
-%br
+  .row
+    .columns.small-12
+      %h3= article.name
+  .row
+    .columns.small-4
+      = image_tag article.image_url(:medium).to_s
+    .columns.small-8
+      = truncate_html((markdown article.content), length: 400)
+  .row
+    .columns.small-12
+      = article.category.name if article.category.present?
+  %hr
+  %ul.button-group.radius
+    %li= link_to 'Show', article, class: "button success"
+    %li= link_to 'Edit', edit_article_path(article), class: "button"
+    %li= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "button alert"
+  %hr
 
 = link_to 'New Article', new_article_path
