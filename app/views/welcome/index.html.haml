@@ -1,11 +1,9 @@
+- content_for :head do
+  %link{href: 'http://fonts.googleapis.com/css?family=Anton', rel: 'stylesheet', type: 'text/css'}
 - content_for :top do
   .hero
     .row
-      .columns.small-12
-        %ul.example-orbit{data: {orbit: "", options: "animation: slide; bullets: false; paus_on_hover: false;"}}
-          %li= image_tag("slide/slide-1.jpg")
-          %li= image_tag("slide/slide-2.jpg")
-          %li= image_tag("slide/slide-3.jpg")
+      = render "promo"
   .recent
     .row
       .columns.small-12

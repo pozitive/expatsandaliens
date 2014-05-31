@@ -728,11 +728,11 @@ $hero-color: #020629;
 
 // We use these to control the caption styles
 // $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
-// $orbit-caption-font-color: #fff;
-// $orbit-caption-font-size: rem-calc(14);
+$orbit-caption-bg: rgba(255,255,255, 0);
+$orbit-caption-font-color: #fff;
+$orbit-caption-font-size: rem-calc(20);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
-// $orbit-caption-padding: rem-calc(10 14);
+$orbit-caption-padding: rem-calc(20 14);
 // $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
@@ -1290,10 +1290,28 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
   background-color: $main-color;
 }
 
+
+/* Welcome page */
 .hero {
     margin-bottom: rem-calc(20);
     overflow: hidden;
     padding-top: 50px;
+    .row {
+	/* max-width: 1000px; */
+    }
+    img {
+	max-width: 1000px;
+	max-height: 750px;
+    }
+    h1 {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.46);
+	font: 48px/46px 'Anton',sans-serif;
+	color: white;
+	text-transform: uppercase;
+    }
+    .hero-color {
+	color: $main-color;
+    }
 }
 .header {
 }

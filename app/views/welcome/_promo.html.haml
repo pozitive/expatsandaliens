@@ -1,0 +1,7 @@
+%ul.example-orbit{data: {orbit: "", options: "animation: slide; bullets: false; paus_on_hover: false;"}}
+  - @promo_articles.each do |article|
+    %li
+      = image_tag article.image_url(:large).to_s
+      .orbit-caption
+        = promo_text article.name
+    

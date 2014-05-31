@@ -34,5 +34,9 @@
     .columns.small-12
       = f.label :keyword
       = f.text_field :keyword
+  .row
+    .columns.small-12
+      = f.label :promo
+      = f.check_box :promo
   .actions
-    = f.submit 'Save'
+    = f.submit 'Save', class: "button success"
