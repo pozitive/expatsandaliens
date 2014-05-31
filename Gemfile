@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'unicorn'
-gem "haml-rails"
+gem 'haml-rails'
 gem 'compass-rails', github: "Compass/compass-rails"
 gem 'foundation-rails', github: "zurb/foundation-rails"
 gem 'foundation-icons-sass-rails'
@@ -20,6 +20,11 @@ gem 'friendly_id'
 gem 'yaml_db', github: 'jetthoughts/yaml_db', ref: 'fb4b6bd7e12de3cffa93e0a298a1e5253d7e92ba'
 gem 'mini_magick'
 gem 'truncate_html'
+gem 'figaro'
+gem 'carrierwave'
+gem 'fog'
+# gem 'carrierwave_direct'
+# gem 'sidekiq'
 
 # gem 'debugger', group: [:development, :test] # Use debugger
 gem 'sdoc', '~> 0.4.0',          group: :doc

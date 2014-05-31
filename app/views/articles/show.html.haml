@@ -1,24 +1,20 @@
-%p#notice= notice
+- title @article.name
+- meta_keywords @article.keyword
+- meta_description @article.summary
 
-%p
-  %b Name:
-  = @article.name
-%p
-  %b Image:
-  = @article.image
-%p
-  %b Content:
-  = @article.content
-%p
-  %b Category:
-  = @article.category_id
-%p
-  %b Summary:
-  = @article.summary
-%p
-  %b Keyword:
-  = @article.keyword
+= notice
+
+%ul.breadcrumbs
+  %li= link_to 'Home', root_path
+  %li= link_to 'Blogs', articles_path
+  %li= link_to @article.category.name, category_path(@article.category_id)
+
+%h1= @article.name
+= image_tag @article.image_url(:large).to_s, class: "main-image"
+= markdown @article.content
+%h3
+  Category:
+  = link_to @article.category.name, category_path(@article.category_id)
 
 = link_to 'Edit', edit_article_path(@article)
-\|
 = link_to 'Back', articles_path
