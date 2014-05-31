@@ -11,4 +11,5 @@
         %li= nav_link "HOME", root_path
         - Category.all.each do |category|
           %li=  nav_link category.name.upcase, category_path(category)
-        
+        - if admin_signed_in?
+          %li= link_to "<i class='fi-power'></i>".html_safe, destroy_admin_session_path, :method => :delete

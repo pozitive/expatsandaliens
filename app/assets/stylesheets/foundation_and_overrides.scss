@@ -1289,10 +1289,7 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
 .top-bar a:hover {
   background-color: $main-color;
 }
-i {
-    color: $main-color;
-    padding-right: rem-calc(20);
-}
+
 .hero {
     margin-bottom: rem-calc(20);
     overflow: hidden;
@@ -1314,7 +1311,11 @@ i {
 .recent {
 }
 .main {
-    margin: rem-calc(50) auto;
+    Margin: rem-calc(50) auto;
+    i {
+	color: $main-color;
+	padding-right: rem-calc(20);
+    }
 }
 
 textarea {

@@ -5,24 +5,26 @@
   %li= link_to 'Blogs', articles_path
 
 %h1 Listing articles
+= link_to 'New Article', new_article_path if admin_signed_in?
 %hr
 - @articles.each do |article|
   .row
     .columns.small-12
-      %h3= article.name
+      %h3= link_to article.name, article_path(article)
   .row
     .columns.small-4
-      = image_tag article.image_url(:medium).to_s
+      = link_to (image_tag article.image_url(:medium).to_s), article_path(article)
     .columns.small-8
       = truncate_html((markdown article.content), length: 400)
   .row
-    .columns.small-12
-      = article.category.name if article.category.present?
-  %hr
-  %ul.button-group.radius
-    %li= link_to 'Show', article, class: "button success"
-    %li= link_to 'Edit', edit_article_path(article), class: "button"
-    %li= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "button alert"
+    .columns.small-2.right
+      = link_to article.category.name, category_path(article.category_id)
+  - if admin_signed_in?
+    %hr
+    %ul.button-group.radius
+      %li= link_to 'Show', article, class: "button success"
+      %li= link_to 'Edit', edit_article_path(article), class: "button"
+      %li= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "button alert"
   %hr
 
-= link_to 'New Article', new_article_path
+
