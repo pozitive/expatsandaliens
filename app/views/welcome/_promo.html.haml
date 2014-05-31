@@ -3,5 +3,5 @@
     %li
       = image_tag article.image_url(:large).to_s
       .orbit-caption
-        = promo_text article.name
+        = link_to (promo_text article.name), article_path(article)
     

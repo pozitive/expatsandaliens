@@ -121,7 +121,7 @@ $hero-color: #020629;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
+$header-font-family: 'Anton',sans-serif;
 // $header-font-weight: normal;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -1285,7 +1285,9 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
 @import "compass";
 @import 'foundation-icons';
 
-
+.hero-color {
+    color: $main-color;
+}
 .top-bar a:hover {
   background-color: $main-color;
 }
@@ -1293,9 +1295,8 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
 
 /* Welcome page */
 .hero {
-    margin-bottom: rem-calc(20);
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: rem-calc(25);
     .row {
 	/* max-width: 1000px; */
     }
@@ -1305,12 +1306,10 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
     }
     h1 {
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.46);
-	font: 48px/46px 'Anton',sans-serif;
 	color: white;
 	text-transform: uppercase;
-    }
-    .hero-color {
-	color: $main-color;
+	line-height: rem-calc(48);
+	font-size: rem-calc(50);
     }
 }
 .header {
@@ -1326,21 +1325,23 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000322', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-.recent {
-}
-.main {
-    Margin: rem-calc(50) auto;
-    i {
-	color: $main-color;
-	padding-right: rem-calc(20);
+.recent-articles {
+    img {
+	margin-bottom: rem-calc(20);
     }
+    .no-margin {
+	margin: 0;
+    }
+}
+
+/* Main */
+.main {
+    margin: rem-calc(20) auto;
 }
 
 textarea {
     height: 350px;
 }
-
-
 
 /* Articles  */
 .main-image {

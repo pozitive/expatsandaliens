@@ -3,4 +3,6 @@ class Article < ActiveRecord::Base
   belongs_to :category
   mount_uploader :image, ImageUploader
   scope :promo, -> { where(:promo => true) }
+  scope :not_promo, -> { where(:promo => false) }
+  scope :date, -> { order('updated_at ASC') }
 end

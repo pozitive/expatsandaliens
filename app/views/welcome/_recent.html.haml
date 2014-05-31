@@ -1,0 +1,12 @@
+.recent-articles
+  %h1 <i class="fi-star hero-color"></i> RECENT ARTICLES
+  .row
+    - @recent_articles.each_with_index do |article, index|
+      - if index == 3
+        .row
+      .columns.small-6.medium-4
+        = link_to (image_tag article.image_url(:thumb).to_s), article_path(article)
+        %p.no-margin= link_to article.name, article_path(article)
+        %p.no-margin= strip_tags (truncate_html((markdown article.content), length: 150))
+        %p= link_to article.category.name, category_path(article.category_id)
+

@@ -1,13 +1,6 @@
-- content_for :head do
-  %link{href: 'http://fonts.googleapis.com/css?family=Anton', rel: 'stylesheet', type: 'text/css'}
 - content_for :top do
   .hero
     .row
       = render "promo"
-  .recent
-    .row
-      .columns.small-12
-        %h1 <i class="fi-star"></i>Recent articles
 
-%h1 Welcome#index
-%p Find me in app/views/welcome/index.html.haml
+= render "recent"

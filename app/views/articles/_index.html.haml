@@ -1,7 +1,6 @@
-%p#notice= notice
-%h1 <i class="fi-star hero-color"></i> #{@category.name.upcase}
+%h1 Listing articles
+= link_to 'New Article', new_article_path if admin_signed_in?
 %hr
-
 - @articles.each do |article|
   .row
     .columns.small-12
@@ -21,9 +20,3 @@
       %li= link_to 'Edit', edit_article_path(article), class: "button"
       %li= link_to 'Destroy', article, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "button alert"
   %hr
-
-
-- if admin_signed_in?
-  %ul.button-group.radius
-    %li= link_to 'Edit', edit_category_path(@category), class: 'button'
-    %li= link_to 'Back', categories_path, class: 'button'
