@@ -4,5 +4,5 @@ class Article < ActiveRecord::Base
   mount_uploader :image, ImageUploader
   scope :promo, -> { where(:promo => true) }
   scope :not_promo, -> { where(:promo => false) }
-  scope :date, -> { order('updated_at ASC') }
+  scope :date, -> { order('updated_at DESC') }
 end

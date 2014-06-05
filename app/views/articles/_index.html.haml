@@ -9,7 +9,7 @@
     .columns.small-4
       = link_to (image_tag article.image_url(:thumb).to_s), article_path(article)
     .columns.small-8
-      = truncate_html((markdown article.content), length: 400)
+      = sanitize (truncate_html((markdown article.content), length: 400)), tags: %w(p ul li ol strong)
   .row
     .columns.small-2.right
       = link_to article.category.name, category_path(article.category_id)
