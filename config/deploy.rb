@@ -3,7 +3,7 @@ require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 # config valid only for Capistrano 3.1
-lock '3.2.0'
+lock '3.2.1'
 
 server '109.120.166.48', roles: [:web, :app, :db, :workers], ssh_options: {
   user: "deploy",

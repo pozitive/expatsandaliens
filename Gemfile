@@ -35,4 +35,6 @@ gem 'capistrano-rails', group: :development # Use Capistrano for deployment
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'rails_12factor', group: :production # for heroku
+gem 'rails_12factor', group: :production
+gem 'capistrano-rbenv', group: :production
+gem 'capistrano-bundler', group: :production
