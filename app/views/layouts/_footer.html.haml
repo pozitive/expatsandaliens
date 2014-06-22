@@ -1,5 +1,26 @@
-%hr
 %footer.footer
   .row
-    .columns.small-12
-      %p GnD life style © 2014 Privacy Policy
+    .columns.small-4
+      %ul.no-bullet
+        - Category.all.each do |category|
+          %li=  nav_link category.name, category_path(category)
+    .columns.small-4
+      %ul.no-bullet
+        %li= link_to "Facebook"
+        %li
+          %a Linkedin
+        %li
+          %a Twitter
+        %li
+          %a Google+
+        %li
+          %a Pinterest
+        %li
+          %a Subscribe
+    .columns.small-4
+      %ul.no-bullet
+        %li Contact Us
+        %li Write for Us
+        %li Advertising
+        %li Questions and Comments
+        %li About Us
