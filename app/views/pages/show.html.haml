@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @page.name
+%p
+  %b Content:
+  = @page.content
+%p
+  %b Summary:
+  = @page.summary
+%p
+  %b Keyword:
+  = @page.keyword
+
+= link_to 'Edit', edit_page_path(@page)
+\|
+= link_to 'Back', pages_path
