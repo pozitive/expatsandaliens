@@ -19,8 +19,9 @@
           %a Subscribe
     .columns.small-4
       %ul.no-bullet
-        %li Contact Us
-        %li Write for Us
-        %li Advertising
-        %li Questions and Comments
-        %li About Us
+        %li= link_to "Contact Us", page_path(Page.find_by_name("Contact"), anchor: "contact")
+        %li= link_to "Write for Us ", page_path(Page.find_by_name("Contact"),anchor: "write")
+        %li= link_to "Advertising", page_path(Page.find_by_name("Contact"), anchor: "advertise")
+        %li= link_to "Questions and Comments", page_path(Page.find_by_name("Contact"), anchor: "questions")
+        %li= link_to "About Us", page_path(Page.find_by_name("Contact"), anchor: "about")
+
