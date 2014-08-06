@@ -1,6 +1,7 @@
 module WelcomeHelper
   def promo_text(title)
-    matchData = title.match(/(^\w+\W+\w+\W+)(\w+\W+\w+\W+)(\w+\W+\w+\W+)/)
+    matchData = title.match(/(^\w+\W+\w+\W+)(\w+\W+\w+\W+)(\w+\W+\w+\W+)/) || 
+      title.match(/(^\w+\W+\w+\W+)(\w+\W+\w+\W+)/) || title.match(/(^\w+\W+)/)
 
     span = content_tag(:span, class: 'hero-color') do
       matchData[1]

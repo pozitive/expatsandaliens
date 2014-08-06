@@ -5,5 +5,5 @@ stderr_path "#{root}/log/unicorn.log"
 stdout_path "#{root}/log/unicorn.log"
 
 listen "/tmp/unicorn.expatsandaliens.sock"
-worker_processes 2
-timeout 30
+worker_processes 3
+timeout 200
