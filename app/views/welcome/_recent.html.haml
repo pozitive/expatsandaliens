@@ -2,7 +2,7 @@
   %h1 <i class="fi-star hero-color"></i> RECENT ARTICLES
   .row
     - @recent_articles.each_with_index do |article, index|
-      - if index == 3
+      - if index == 3 || index == 6
         .row
       .columns.small-6.medium-4
         = link_to (image_tag article.image_url(:thumb).to_s), article_path(article)

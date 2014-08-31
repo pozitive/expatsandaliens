@@ -1,5 +1,49 @@
 
 ---
+admins:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - failed_attempts
+  - unlock_token
+  - locked_at
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - china@pozitive.biz
+    - "$2a$10$0N7IkJ.1v9icVVgOCW56f.h1UL581xMaZjcwpIOQsyNfVMVscki4G"
+    - '5'
+    - '2014-08-06 17:22:33.578896'
+    - '2014-07-14 20:14:39.248023'
+    - 5.228.165.124
+    - 5.228.165.124
+    - '0'
+    - 
+    - 
+    - '2014-05-31 14:43:01.718567'
+    - '2014-08-06 17:22:33.671835'
+  - - '2'
+    - brettdvoretz@gmail.com
+    - "$2a$10$Q2isH86pxCYO/To6Vqma1uNjsqoxWiQszmTCadpUjH07zZbwBnaB2"
+    - '31'
+    - '2014-08-27 15:00:30.471927'
+    - '2014-08-26 03:32:21.873932'
+    - 203.144.92.86
+    - 202.8.75.186
+    - '0'
+    - 
+    - 
+    - '2014-06-22 10:03:16.151445'
+    - '2014-08-27 15:00:30.472652'
+
+---
 categories:
   columns:
   - id
@@ -40,37 +84,6 @@ categories:
     - '2014-05-31 14:10:25.998436'
 
 ---
-admins:
-  columns:
-  - id
-  - email
-  - encrypted_password
-  - sign_in_count
-  - current_sign_in_at
-  - last_sign_in_at
-  - current_sign_in_ip
-  - last_sign_in_ip
-  - failed_attempts
-  - unlock_token
-  - locked_at
-  - created_at
-  - updated_at
-  records: 
-  - - '1'
-    - china@pozitive.biz
-    - "$2a$10$0N7IkJ.1v9icVVgOCW56f.h1UL581xMaZjcwpIOQsyNfVMVscki4G"
-    - '3'
-    - '2014-06-22 06:35:41.865436'
-    - '2014-06-01 05:12:08.386734'
-    - 127.0.0.1
-    - 127.0.0.1
-    - '0'
-    - 
-    - 
-    - '2014-05-31 14:43:01.718567'
-    - '2014-06-22 06:35:41.86753'
-
----
 articles:
   columns:
   - id
@@ -89,26 +102,27 @@ articles:
     - Ditty_about_summer__shutterstock_179633732.jpg
     - "Ahhh. The dream of moving overseas; living in some exotic land with tropical
       weather and interesting people. Freedom is what it really signifies. Getting
-      your life back and really living again. Exploring the world and seeing new things.
-      \r\n\r\nUnfortunately, for most of you, that’s all it will ever be. \r\n\r\nA
-      dream.\r\n\r\nYou see, the realities of moving, making an income, and picking
-      up our roots is just too scary for most. But if you want a better, more interesting
+      your life back and really living again. Getting out of the office and out of
+      the rat race. Exploring the world and seeing new things. \r\n\r\nUnfortunately,
+      for many people, that’s all it will ever be. \r\n\r\nA dream.\r\n\r\nYou see,
+      the realities of moving, figuring out how to make a an income abroad, and picking
+      up our roots is just too scary for most. But if you want a better, more exciting
       life, you are going to have to do something about it. Nothing changes unless
       you change it. \r\nWhere do you see yourself in 5 years? Will you still be stuck
       in some boring office job driving down the same streets you’ve been driving
-      down for the last 10 years? \r\n\r\nToday is the first step towards your new
-      life!\r\n\r\nOne of the main factors to consider when moving abroad is how to
-      make an income. Unless you are retired or living on a pension, generating money
-      is a fact of life and even in your new home land you will want an income. \r\n\r\nHere
-      are 5 ways to Make Money as an Expat\r\n\r\n**Freelance**\r\n\r\nWhat are you
-      good at? With all of the online freelancing platforms and outsourced work these
-      days, almost any skill can be monetized. Remote jobs and freelance gigs can
-      be found in anything from graphic design work and web development to writing
-      and data entry and even debt collection. If most of your work day is currently
+      down for the last 10 years? \r\n\r\n**Today could be the first step towards
+      your new life!**\r\n\r\nOne of the main factors to consider when moving abroad
+      is how to make an income. Unless you are retired or living on a pension, generating
+      money is a fact of life and even in your new homeland you will want an income.
+      \r\n\r\n##5 ways to Make Money as an Expat\r\n\r\n**Freelance**\r\n\r\nWhat
+      are you good at? With all of the online freelancing platforms and outsourced
+      work these days, almost any skill can be monetized. Remote jobs and freelance
+      gigs can be found in anything from graphic design and web development to writing,
+      data entry, and even debt collection. If most of your work day is currently
       spent on a computer or telephone, there is a good chance you can figure out
       a way to do it from anywhere. You can find freelance work on websites like freelancer.com
       or Odesk.com, but the pay is generally low. Alternatively, you can search under
-      gigs on craigslist for remote work opportunities in your field. Almost every
+      gigs on Craigslist for remote work opportunities in your field. Almost every
       industry has their own blogs and websites with online or remote job postings.
       Just do some research online and find out which have the most up-to-date job
       listings for you industry. Then get started applying.\r\n\r\n**Internet Based
@@ -123,14 +137,14 @@ articles:
       system.  You just have to figure out what information you have that people want.
       Never forget there is no magic bullet, a good online store or blog will take
       work just like any business. The difference is that you’ll probably be working
-      on your own schedule, in sandals on a beautiful beach, rather than in a dusty
+      on your own schedule and in sandals on a beautiful beach, rather than in a dusty
       old office or cubicle. \r\n\r\n**Teach English**\r\n\r\nThis is an oldie but
       goodie. Unqualified native English speakers have been moving to foreign lands
       and becoming teachers for years. Speaking English is a valuable skill and many
       people around the world are trying desperately to learn it. You can teach English
       anywhere from Spain to Japan to Thailand to Ecuador. Unfortunately, because
-      of the afore mentioned unqualified teachers, English teaching pay is generally
-      low, but enough to live in the country you are teaching. On the flipside, this
+      of the aforementioned unqualified teachers, English teaching pay is generally
+      low, but enough to live in the country you are teaching. On the flip side, this
       means that you shouldn’t have too much trouble finding work to get started.
       If you put the time and effort in to become a qualified teacher, it is possible
       to find relatively good paying jobs that will even allow you to put some money
@@ -142,26 +156,26 @@ articles:
       them. If you’ve been a chef for the last 10 years, maybe you can offer menu
       planning consultancy or perhaps you were a marketing rep, maybe you can start
       a branding agency. Get creative and put a plan into action.\r\n\r\n**Become
-      a Middle Man **\r\n\r\nMiddle men always make money, and they best thing, they
+      a Middle Man**\r\n\r\nMiddle men always make money, and they best thing, they
       have very little overhead. Being a middle man can be anything from sourcing
       goods and exporting to helping people find real estate or buy a business. Keep
       your eyes open in your new home country and learn how business is done. If you
       can make it easier and safer for other foreigners to buy land, rent a house,
-      or start a business then you have a valuable skill people are willing to pay
-      for.\r\n\r\nThese are just a few ideas for ways to fund your life overseas.
-      Every destination will have its own unique opportunities and you just have to
-      be ready to take advantage of them. Life as an expat doesn’t mean you won’t
-      have to work, you’ll just be setting your work u\r\np around your lifestyle
-      instead of the other way around. \r\n\r\nAre you living in another country and
-      making a living? Leave us a comment and tell us how you fund your expat life. "
+      find products, or start a business; then you have a valuable skill people are
+      willing to pay for.\r\n\r\nThese are just a few ideas for ways to fund your
+      life overseas. Every destination will have its own unique opportunities and
+      you just have to be ready to take advantage of them. Life as an expat doesn’t
+      mean you won’t have to work, you’ll just be setting your work schedule around
+      your lifestyle instead of the other way around. \r\n\r\nAre you living in another
+      country and making a living? Leave us a comment and tell us how you fund your
+      expat life. \r\n\r\n**Article written by Brett Dvoretz**"
     - '3'
-    - Sui blanditiistes es prtiuptatum del enitimatququdolores etreste quamo lestiasexceuri
-      sintsuincupaqui atque
-    - Sed laort, aliquam leo, Ut tellus dolor, dapibus eget, elementum vel, cursus
-      eleifend, elit.
+    - Find out how you can make an income while starting your new life overseas
+    - make money overseas, working overseas, earning a living overseas, freelance
+      writing, income abroad
     - '2014-05-23 15:11:51.387294'
-    - '2014-06-01 05:36:30.055042'
-    - true
+    - '2014-08-25 09:01:55.562744'
+    - false
   - - '2'
     - Avoid Quarantine When Moving to Japan with Your Dog
     - HardheadMonster_shutterstock_180121373.jpg
@@ -169,95 +183,97 @@ articles:
       period for dogs brought into the country. Just the mere thought of our dog in
       some government quarantine facility for six months is enough to make most would
       be expats change their mind about moving. \r\n\r\nI’m here to tell you a little
-      secret. \r\n\r\nYou can avoid it.\r\n\r\nYou see Japan allows you to do a home
+      secret. \r\n\r\nYou can avoid it.\r\n\r\nYou see, Japan allows you to do a home
       quarantine in your country before you leave and then bypass the long quarantine
-      period after landing in Japan and have your dog within 12 hours of landing.\r\n\r\nNow
-      a home quarantine is not exactly what you think and it’s actually a lot easier
-      than it sounds. \r\n\r\nHere are the requirements for bringing your dog into
-      Japan and avoiding a long quarantine period. You need to start this process
-      seven and a half months before travel.\r\n\r\n1. Your dog must be micro chipped
-      with an ISO compliant (11784 and 11785) microchip.\r\n2. You must give your
-      dog a rabies vaccine. Yes, even if he already has one it must be after the microchip
-      and within one year of travel. \r\n3. After at least 31 days, your dog will
-      need an additional rabies booster. (Dogs must be vaccinated twice after the
-      implantation of the microchip and within one year of travel) \r\n4. Sometime
-      after the second rabies vaccination, your dog must get a rabies titer test.
-      The results of the blood test shall be equal to or greater than 0.5 IU/ml.\r\n5.
-      Find a vet in your area experienced working with international health certificates
-      for all of these tests and be sure they are able to obtain USDA approval. \r\n6.
-      After sending the sample to relevant authorities in Japan, you must wait 180
-      days in your home country. This is the home quarantine and yes, you can still
-      take your dog outside and do all the regular activities you normally would.\r\n7.
-      40 to 50 days before travel notify the Japanese Animal Quarantine Service if
-      your intent to import your dog into their country and the date of your planned
-      arrival. They will want copies of all your paperwork.\r\n8. 10 days before travel
+      period after landing in Japan. You'll be able to have your dog safely in your
+      hands within 12 hours of landing.\r\n\r\nNow a home quarantine is not exactly
+      what you think and it’s actually a lot easier than it sounds. \r\n\r\nHere are
+      the requirements for bringing your dog into Japan and avoiding a long quarantine
+      period. You need to start this process seven-and-a-half months or more before
+      travel.\r\n\r\n1. Your dog must be micro chipped with an ISO compliant (11784
+      and 11785) microchip.\r\n\r\n2. You must give your dog a rabies vaccine. Yes,
+      even if he already has one it must be after the microchip implant and within
+      one year of travel. \r\n3. After at least 31 days, your dog will need an additional
+      rabies booster. (Dogs must be vaccinated twice after the implantation of the
+      microchip and within one year of travel) \r\n4. Sometime after the second rabies
+      vaccination, your dog must get a rabies titer test. The results of the blood
+      test shall be equal to or greater than 0.5 IU/ml.\r\n5. Find a vet in your area
+      experienced working with international health certificates for all of these
+      tests and be sure they are able to obtain USDA approval. \r\n6. After sending
+      the sample to relevant authorities in Japan, you must wait 180 days in your
+      home country. This is the home quarantine and yes, you can still take your dog
+      outside and do all the regular activities you normally would.\r\n7. 40 to 50
+      days before travel notify the Japanese Animal Quarantine Service if your intent
+      to import your dog into their country and the date of your planned arrival.
+      They will want copies of all your paperwork.\r\n8. 10 days or less before travel
       have your vet examine your dog and fill out an International Health Certificate
       then have it stamped at the USDA office nearest you.\r\n\r\nThere are additional
-      details to each of these rules that you can find by visiting Japan’s Official
-      Animal Quarantine Service website (http://www.maff.go.jp/aqs/english/animal/dog/import-other.html)
+      details to each of these rules that you can find by visiting [Japan’s Official
+      Animal Quarantine Service website](http://www.maff.go.jp/aqs/english/animal/dog/import-other.html)
       \r\n\r\nThat’s it. You’re ready to go and your dog can now avoid any lengthy
-      stay in some government quarantine facility. \r\nIf you’re interested in learning
-      more about making your dog comfortable when travelling internationally you can
-      read or for more on the best airline to use when flying with your dog to Japan."
-    - '2'
-    - 'Now a home quarantine is not exactly what you think and it’s actually a lot
-      easier than it sounds. '
-    - dogs, quarantine
+      stay in a scary government quarantine facility. \r\nIf you’re interested in
+      learning more about making your dog comfortable when traveling internationally
+      you can read [How to Make Your Dog Comfortable When Traveling Overseas](http://expatsandaliens.com/articles/4).
+      \r\n\r\n**Article written by Brett Dvoretz**"
+    - '5'
+    - Tips and tricks to avoid lengthy quarantines for your pet when traveling to
+      rabies free countries.
+    - pet quarantine, avoid pet quarantine, international travel with dogs, japan
+      pet quarantine, pet travel, dog on plane
     - '2014-05-23 15:19:16.755186'
-    - '2014-05-31 17:38:09.321856'
+    - '2014-08-25 09:03:17.471291'
     - false
   - - '3'
     - How to Get Over Jet Lag Quicker
     - jet_lag.jpg
     - "Let’s just face it. \r\n\r\nJet lag sucks!\r\n\r\nThe worst part, there is
-      no magic solution. For some it’s harder to deal and with and for others it’s
-      easier, but no matter who you are, it really sucks. Jet lag ruins the first
-      few days of vacation for hundreds of thousands of us around the world. \r\n\r\nIt’s
-      not our fault. It’s a chemical thing in our body and resetting your internal
-      clock is harder than you think. It is going to take a combination of mental
-      and physical tricks on your body. \r\n\r\nLet’s take a look at the tips below
-      to help you get over jet lag quicker and adjust to your new time zone. \r\n\r\n1.
-      Adjust your schedule – Before you fly try and adjust your schedule to line up
-      with your destination time zone as much as possible. Obviously you can’t start
-      going to sleep at 4:00pm, but you can do things like going to sleep a few hours
-      earlier or staying up a few hours later.\r\n\r\n2. Reset your watch – As soon
-      as you board the plane, reset your watch. It’s a mental thing. The plane windows
-      will generally be closed throughout most of the flight and most airlines try
-      and adjust their food and service times to match up with your destination country.
-      Between the changed time on your watch, lack of sunlight as orientation, meal
-      times; you will subconsciously aligning yourself with your destination time
-      zone.\r\n\r\n3. Reset your body - Sleep when you are supposed to. If you are
-      flying during the day time and arriving at your destination at night, you will
-      want to stay awake during the daytime hours at your destination. This way you
-      will be ready for sleep when you arrive. Alternatively, if you are flying during
-      the night in your destination time zone, try your best to get some sleep on
-      the plane. \r\n4. Avoid taking naps after arrival – If you arrive in the day
-      time, try your best to stay awake until night and go to sleep at a normal time.
-      This will prevent you from waking up in the middle of the night. The best way
-      to avoid sleeping when you first arrive in a new country is to go out and do
-      some exploring. Avoid resting in the hotel, because you’ll most likely just
-      fall asleep. If you must take a nap, try and keep it under 30 minutes.\r\n5.
-      Drink water – I know this sounds weird and it’s not directly related to jet
-      lag, but it’s a good idea. You airplane air is extremely dry and most people
-      get dehydrated while flying. It doesn’t help that a lot of us drink alcohol
-      as well. Make sure to drink plenty of water while flying to prevent any dehydration.
-      A healthy body can adjust to a new time zone quicker.\r\n6. Sleep aids – For
-      some sleep aids are an option to help them get a good night’s rest at their
-      destination for the first few evenings. I recommend if you choose sleep aids
-      try something natural and over the counter like melatonin. It’s a natural hormone
-      produced in our body at night which tells us it’s time to sleep. If you are
-      having trouble sleeping in your new destination you can try taking one an hour
-      before bedtime.\r\n\r\nWe could separate it all into any number of tips depending
-      upon how specific we want to be, but the long and short of it is to act as if.
-      As much as possible, act as if you are already there. Adjust your daily routine
-      at home as much as feasible before you leave and once in the air, act as if
-      you are there by eating, sleeping, and modifying your references to align with
-      your destination. "
-    - '1'
-    - ''
-    - ''
+      no magic solution. For some it’s harder to deal with and for others it’s easier,
+      but no matter who you are, it really sucks. Jet lag ruins the first few days
+      of vacation for thousands. \r\n\r\nIt’s not our fault. It’s a chemical thing
+      in our body and resetting your internal clock is harder than you think. It's
+      going to take a combination of mental and physical tricks to fool your body
+      into adjusting quickly.\r\n\r\n##Tips to Get Over Jet Lag Quicker \r\n\r\n**1.
+      Adjust your schedule** – Before you fly, try and adjust your schedule to line
+      up with your destination time zone as much as possible. Obviously you can’t
+      start going to sleep at 4:00pm, but you can do things like going to sleep a
+      couple of hours earlier or staying up a few hours later.\r\n\r\n**2. Reset your
+      watch** – As soon as you board the plane, reset your watch. It’s a mental thing.
+      The plane windows are closed throughout most of the flight and many airlines
+      try and adjust their food and service times to match up with your destination
+      country. Between the changed time on your watch, lack of sunlight as orientation,
+      and meal times; you will subconsciously aligning yourself with your destination
+      time zone.\r\n\r\n**3. Reset your body** - Sleep when you are supposed to. If
+      you are flying during the day time and arriving at your destination at night,
+      do your best to stay awake on the plane. This way you will be ready for sleep
+      when you arrive. Alternatively, if you are flying during the night in your destination
+      time zone, try your best to get some sleep on the plane. \r\n\r\n**4. Avoid
+      taking naps after arrival** – If you arrive in the day time, stay awake until
+      night and go to sleep at a normal time. This will prevent you from waking up
+      in the middle of the night. The best way to avoid sleeping when you first arrive
+      in a new country is to go out and do some exploring. Avoid resting in the hotel
+      because you’ll most likely just fall asleep. If you must take a nap, try and
+      keep it under 30 minutes.\r\n\r\n**5. Drink water** – I know this sounds weird
+      and it’s not directly related to jet lag, but it’s a good idea. Airplane air
+      is extremely dry and most people get dehydrated while flying. It doesn’t help
+      that a lot of us drink alcohol as well. Make sure to drink plenty of water while
+      flying to prevent any dehydration. A healthy body can adjust to a new time zone
+      quicker.\r\n\r\n**6. Sleep aids** – For some sleep aids are an option to help
+      them get a good night’s rest at their destination for the first few evenings.
+      I recommend if you choose sleep aids, try something natural and over the counter
+      like melatonin. It’s a natural hormone produced in our body at night which tells
+      us it’s time to sleep. If you are having trouble sleeping in your new destination
+      you can try taking one an hour before bedtime.\r\n\r\nThe long and short of
+      it is, act as if. As much as possible, act as if you are already there. Adjust
+      your daily routine at home as much as feasible before you leave and once in
+      the air, act as if you are there by eating, sleeping, and modifying your references
+      to align with your destination. This will help your body ease into the time
+      zone change quickly and gently. \r\n\r\n**Article written by Brett Dvoretz**"
+    - '2'
+    - Get over jet lag quicker by following these simple tips.
+    - get over jet lag, avoid jet lag, prevent jet lag, tips for preventing jet lag,
+      jet lag
     - '2014-05-31 15:01:03.452484'
-    - '2014-05-31 17:36:54.037211'
+    - '2014-08-25 08:59:50.300911'
     - false
   - - '4'
     - How to Make Your Dog Comfortable When Traveling Overseas
@@ -273,18 +289,18 @@ articles:
       dog along the way are about equal to the chance of your plane crashing. So if
       your doggy goes, it probably means you’re going together.\r\n\r\nThat being
       said there are a few things you can do before, and during, travel to make your
-      dog as comfortable as possible.\r\n\r\n**Buying an Airline Approved Cage**\r\n\r\nSpend
+      dog as comfortable as possible.\r\n\r\n###Buy an Airline Approved Cage\r\n\r\nSpend
       the money to get a high quality cage with a 4-way locking mechanism. Make sure
       you are buying an airline approved cage that has breathing holes on all 4 sides.
       Check the inside of the cage to make sure there is nothing sharp or sticking
-      out that could potentially hurt your dog.\r\n\r\n**Familiarizing your Dog with
-      the Cage**\r\n\r\nYou want to get the cage at least 2 weeks before you leave,
+      out that could potentially hurt your dog.\r\n\r\n###Familiarize Your Dog with
+      the Cage\r\n\r\nYou want to get the cage at least 2 weeks before you leave,
       preferable a month, and have your dog start sleeping in it. You don’t have to
       lock him in there, but if you start giving him treats and toys inside of it,
       he will begin to associate it with good things. After he gets used to having
       treats inside the cage, put his bed inside and he will most likely just start
-      sleeping in there on his own. You want the dog to be familiar the cage long
-      before travel time.\r\n\r\nPreparing for Traveling with your Dog\r\n\r\nWrite
+      sleeping in there on his own. You want the dog to be familiar with the cage
+      long before travel time.\r\n\r\n###Preparing to Travel with your Dog\r\n\r\nWrite
       your contact information on the outside of the cage in permanent black marker
       on multiple sides and put a copy of all your dogs vaccination records along
       with a picture of him or her inside a zip-lock bag and tape it to the top. You
@@ -295,120 +311,125 @@ articles:
       from drinking it too quickly. A week before the trip, you should start sleeping
       with an old t-shirt or some other cloth that you are willing to leave in your
       dog’s cage during the trip. After sleeping with it for a week, it will pick
-      up your scent and comfort your dog when he is on the airplane.\r\n\r\n**Traveling
-      Day with your Dog**\r\n\r\nEither put your dog’s bed or a nice thick blanket
-      in the bottom of the cage to keep them warm and comfortable. You can’t give
-      your dog any food, treats, or bones inside their cage on the day of travel because
+      up your scent and comfort your dog when he is on the airplane.\r\n\r\n###Getting
+      your Dog Ready for Travel\r\n\r\nGive your dog lots of exercise leading up to
+      the travel day and, if possible, on the travel days as well; you want them as
+      tired and relaxed as possible during the trip. Best case scenario they sleep
+      though most of it. Unless specifically directed otherwise by your vet, under
+      no circumstances should you give them any sedatives. Almost all vets agree that
+      doing so is more dangerous for your dog than the stress of the trip. \r\n\r\n###Traveling
+      Day with your Dog\r\n\r\nEither put your dog’s bed or a nice thick blanket in
+      the bottom of the cage to keep them warm and comfortable. You can’t give your
+      dog any food, treats, or bones inside their cage on the day of travel because
       you don’t want any chance they will choke. So no chew toys either. Feed your
       dog a good sized meal a few hours before traveling then, after they have had
       a chance to digest it, take them for a walk. If you feed them right before you
       put them in the cage, they will probably wind up having an accident in the cage
       during the trip. Feel free to give them a few small treats at the airport and
       just before you leave them with airline staff. Make sure you have all your documents
-      in order with copies of everything stored in another bag. \r\n\r\n**Getting
-      your Dog Ready for Travel**\r\n\r\nGive your dog lots of exercise leading up
-      to the travel day and, if possible, on the travel days as well; you want them
-      as tired and relaxed as possible during the trip. Best case scenario they sleep
-      though most of it. Unless specifically directed otherwise by your vet, under
-      no circumstances should you give them any sedatives. Almost all vets agree that
-      doing so is more dangerous for your dog than the stress of the trip. \r\n\r\nThat’s
+      in order with copies of everything stored in another bag. \r\n\r\n\r\nThat’s
       it. You’ve done all you can do. While I know that easy for me to say and it
       doesn’t make you feel any better, just know that I understand and I went through
       it myself. It’s easier than you think and you’re dog is way tougher than you
       are. He or she will be fine. Soon you and your best friend will be living happily
-      in your new home country.\r\n"
+      in your new home country.\r\n\r\n**Article written by Brett Dvoretz**\r\n"
     - '5'
-    - ''
-    - ''
+    - Tips and tricks to make your dog comfortable when traveling overseas
+    - pet relocation, traveling with pets, traveling with dogs, flying with dogs,
+      moving with pets, dog on plane
     - '2014-05-31 15:08:45.163774'
-    - '2014-05-31 17:52:21.919965'
+    - '2014-08-26 03:35:29.313872'
     - false
   - - '5'
     - 'Save Money on Flights: Be Flexible '
     - ollyy_shutterstock_158229143.jpg
-    - "We’ve all been there. Playing around online, maybe day dreaming about some
-      exotic location we’d like to visit. When out of nowhere, you run across some
-      airline website or consolidator search website like Expedia with some unbelievably
-      cheap price. \r\n\r\nMaybe you start thinking to yourself, “hey I can afford
-      this” and maybe you even begin to plan a trip. So you go back online, all ready
-      to purchase a cheap flight and bam! The price is 50% higher. You can’t find
-      anything even close to that awesome deal you found before. \r\nSo what happened?
+    - "We’ve all been there. Playing around online, maybe daydreaming about some exotic
+      location we’d like to visit. When out of nowhere, you run across some airline
+      website or consolidator search site like Expedia with some unbelievably cheap
+      price. \r\n\r\nMaybe you start thinking to yourself, “Hey I can afford this,”
+      and maybe you even begin to plan a trip. So you go back online, all ready to
+      purchase a cheap flight and bam! The price is 50% higher. You can’t find anything
+      even close to that awesome deal you found before. \r\n\r\nSo what happened?
       \r\n\r\nWell, airline tickets are a fickle thing. Deals come and go. Prices
       change drastically from hour to hour and day to day. Obviously your travel dates
-      will play a huge part in the price of your flight and the first piece of advice
-      most articles give for saving money on airline tickets is to have flexible travel
-      dates, well unlike them I understand that you can only be so flexible. If you’re
-      like most of us, you have a job and that dictates when you can and when you
-      can’t travel.  You’ll also most likely have to be giving that job some kind
-      of advance notice, so last minute deals are out as well. \r\n\r\nThe key is
-      to be flexible in other areas. Things you can control like your destination
-      city and purchase method can also make huge differences in scoring that cheap
-      flight. \r\n\r\nTips for Getting a Good Deal on Airline Tickets\r\n\r\n**Alternate
-      Destinations**\r\n\r\nPopular routes often have cheaper flight tickets available
-      and sometimes it can be beneficial to fly a more popular route and then use
-      other means of transportation to get to your final destination. Even if there
-      is a closer airport to your home or destination, sometimes it is cheaper to
-      fly into another more popular airport. For example, if you are flying into San
-      Diego, try checking the ticket prices to Los Angeles and you might be surprised
-      at the difference. Ground transportation such as busses and trains can also
-      be ridiculously cheap in many countries, and if you have the time, you can even
-      try checking flight prices for a neighboring country and purchasing a bus or
-      train ticket.\r\n\r\n**Check Different Layover Cities**\r\n\r\nIt’s hard to
-      try different layover cities online, but if you are using a travel agent or
-      purchasing directly with the airline, having them try routing you through different
-      layover cities can affect the price. It can also have the added benefit of giving
-      you some time to explore an additional destination you would like to see. Many
-      airlines allow you to extend layovers at gateway cities for a week or more so
-      it’s like getting two vacations for the price of one plane ticket. \r\n\r\n**Flight
-      Days and Time**\r\n\r\nGenerally if you fly on a Tuesday or Wednesday your flight
-      will be the cheapest. Flying over the weekend comes at an additional price because
-      of the higher demand for weekend seats. Also flying out and back in the same
-      week is generally more expensive than staying over the weekend and coming back
-      the following week. Also redeye flights are cheaper and can actually give you
-      an extra day at your destination if you leave after your last working day rather
-      than waiting until the morning. Just make sure to read How to Get over Jet Lag
-      Quicker to make sure you catch up on your sleep during the redeye so you will
-      be fresh as a daisy to explore as soon as you arrive.\r\n\r\n**Purchase Day
-      and Time**\r\n\r\nThe purchase day and time can make a big difference on the
-      price as well. The problem is there are conflicting theories on what is actually
-      the best time or day to buy, so I would try them all to see what yields the
-      best results for your destination. Checking the ticket prices around 3 p.m.
-      on Tuesdays is good because many studies have shown they release new sales at
-      that time.  Also try just after midnight Tuesday night, so that would be Wednesday
-      morning. Many of the cheap tickets that were sold the day before, but whose
-      payments were never confirmed come flooding back onto the market at this time.
-      Another last ditch effort is to book your flight on a Saturday. Recent studies
-      have shown that airline tickets booked on Saturdays for weekday travel is roughly
-      5% less than the same flight booked during the week. \r\n\r\n**Purchase Method**\r\n\r\nCheck
-      multiple purchase outlets to see which offers you the best price. Surprisingly
-      there can be up to a few hundred dollar difference between search site like
-      Expedia, Hotwire, and Orbitz. It’s also a good idea to check the airline company’s
-      website. Sometimes they will offer deals that you cannot find on the consolidator
-      websites. You can even try calling a local travel agency. You never know which
-      outlet will offer the best rate. You’ll also want to check for discount airlines
-      that fly into your destination. Often these budget airlines are not revealed
-      in consolidated searches and you will have to do a little bit of legwork to
-      find out what airlines options you have. Just do a search on Google for budget
-      airlines flying into your destination.\r\n\r\n**Start Your Search Early**\r\n\r\nStart
-      searching early so you have general idea of the price range so you know whether
-      the ticket you are purchasing is a good rate. Typically the best time to buy
-      a flight is about 45 days in advance for domestic flights and roughly 60 days
-      for international. If you are planning on flying during popular times like holidays
-      or busy seasons in high volume tourist destinations, you will want to book your
-      flight four to five months in advance if possible.\r\n\r\nFinally the last and
-      maybe most important tip I can offer to help you get a price you are happy with
-      is this…\r\n\r\n**Stop looking after you make your purchase!**\r\n\r\nThere
-      is nothing worse than booking an airline ticket and then finding a better deal
-      on it a week later. If you continue to look, there is a huge chance you will
-      see your ticket at a better price at one point and time. So just don’t. You’ve
-      done everything you can to get yourself the best possible price on an airline
-      ticket and as long as you leave it at that, you will leave smiling and happy.\r\n\r\nAfter
-      all, ignorance is bliss. \r\n"
+      will play a huge part in the price and the first piece of advice most articles
+      give for saving money on airline tickets is to have flexible travel dates, well
+      unlike them I understand that you can only be so flexible. If you’re like most
+      of us, you have a job and that dictates when you can and when you can’t travel.
+      You’ll also most likely have to be giving that job some kind of advance notice,
+      so last minute deals are out as well. \r\n\r\nThe key is to be flexible in other
+      areas. Things you can control like your destination city and purchase method
+      can also make huge differences in scoring that cheap flight. \r\n\r\n##Tips
+      for Getting a Good Deal on Airline Tickets\r\n\r\n###Alternate Destinations\r\n\r\nPopular
+      routes often have cheaper flights available and sometimes it can be beneficial
+      to fly a more popular route and then use other means of transportation to get
+      to your final destination. Even if there is a closer airport to your home or
+      destination, sometimes it is cheaper to fly and use ground transport for the
+      last leg of your trip. For example, if you are flying into San Diego, try checking
+      the ticket prices to Los Angeles and you might be surprised at the difference.
+      Busses and trains can be ridiculously cheap in many countries and, if you have
+      the time, you can even try checking flight prices for a neighboring country
+      and taking a bus or train the rest of the way. Not only will you save money,
+      but you'll get a glimpse of another culture you might have otherwise missed.\r\n\r\n###Check
+      Different Layover Cities\r\n\r\nIt’s hard to try different layover cities online,
+      but if you are using a travel agent or purchasing directly with the airline,
+      have them try routing you through different layover cities to see how it affects
+      the price. It can also have the added benefit of giving you some time to explore
+      an additional destination you would like to see. Many airlines allow you to
+      extend layovers at gateway cities for a week or more, so it’s like getting two
+      vacations for the price of one plane ticket. \r\n\r\n###Flight Days and Time\r\n\r\nGenerally
+      if you fly on a Tuesday or Wednesday your flight will be the cheapest. Flying
+      over the weekend comes at an additional cost because of the higher demand for
+      weekend seats. Also flying out and back in the same week is generally more expensive
+      than staying over the weekend and coming back the following week. Red eye flights
+      are cheaper and can actually give you an extra day at your destination if you
+      leave after you finish work rather than waiting until the following morning.
+      Read [How to Get over Jet Lag Quicker](http://expatsandaliens.com/articles/3)
+      for some helpful tips so you will be fresh as a daisy to explore as soon as
+      you arrive.\r\n\r\n###Purchase Day and Time\r\n\r\nThe purchase day and time
+      can make a big difference on the price as well. The problem is there are conflicting
+      theories on what is actually the best time or day to buy, so I would try them
+      all to see what yields the best results for your destination. Checking the ticket
+      prices around 3 p.m. on Tuesdays is good because many studies have shown they
+      release new sales at that time. Also try just after midnight Tuesday night,
+      so that would be Wednesday morning. Many of the cheap tickets that were sold
+      the day before, but whose payments were never confirmed come flooding back onto
+      the market at this time. Another last ditch effort is to book your flight on
+      a Saturday. Recent studies have shown that airline tickets booked on Saturdays
+      for weekday travel is roughly 5% less than the same flight booked during the
+      week. \r\n\r\n###Purchase Method\r\n\r\nCheck multiple purchase outlets to see
+      which offers the best price. Surprisingly there can be up to a few hundred dollar
+      difference between search sites like Expedia, Hotwire, and Orbitz. It’s also
+      a good idea to check the airline company’s website. Sometimes they will offer
+      deals that you cannot find on the consolidator sites. You can even try calling
+      a local travel agency. You never know which outlet will offer the best rate.
+      You’ll also want to check for discount airlines that fly into your destination.
+      Often these budget airlines are not revealed in consolidated searches and you
+      will have to do a little bit of legwork to find out what airlines options you
+      have. [This](http://en.wikipedia.org/wiki/List_of_low-cost_airlines) is a good
+      source for a listing of worldwide budget airlines and the where they fly. You
+      can also do a search on Google for budget airlines flying into your destination.\r\n\r\n###Start
+      Your Search Early\r\n\r\nStart searching early so you have general idea of the
+      price range for your planned trip. This way you know whether the ticket you
+      are purchasing is a good rate. Typically the best time to buy a flight is about
+      45 days in advance for domestic flights and roughly 60 days for international.
+      If you are planning on flying during popular times like holidays or busy seasons
+      in high volume tourist destinations, you will want to book your flight four
+      to five months in advance if possible.\r\n\r\nFinally the last and maybe most
+      important tip I can offer to help you get a price you are happy with is this…\r\n\r\n###Stop
+      looking after you make your purchase!\r\n\r\nThere is nothing worse than booking
+      an airline ticket and then finding a better deal on it a week later. If you
+      continue to look, there is a huge chance you will see your ticket at a better
+      price at one point and time. So just don’t. You’ve done everything you can to
+      get yourself the best possible price on an airline ticket and as long as you
+      leave it at that, you will leave smiling and happy.\r\n\r\nAfter all, ignorance
+      is bliss. \r\n\r\n\r\n**Article written by Brett Dvoretz**"
     - '2'
-    - ''
-    - ''
+    - Learn how to get the best price on airline tickets
+    - save money on airfare, find cheap airline tickets, cheap airfare, save money
+      on flights, get cheap flights
     - '2014-05-31 15:11:14.858918'
-    - '2014-06-01 05:26:50.523143'
+    - '2014-08-25 09:03:43.892608'
     - false
   - - '6'
     - Tips for Starting your New Life in Cambodia
@@ -421,7 +442,7 @@ articles:
       lot of questions that will make you pause and re-evaluate your decision. Don’t
       worry, you are about to find out just how easy it can be. By demystifying some
       of the major hurdles such as applying for a visa or opening a bank account,
-      you will see just how smooth your transition can be. \r\n\r\n**Visas**\r\n\r\nGetting
+      you will see just how smooth your transition can be. \r\n\r\n###Visas\r\n\r\nGetting
       a visa is one of the biggest hassles most expats face when moving to a new country,
       luckily for you, this is not a problem when moving to Cambodia. Getting a permanent
       visa to live in Cambodia is easier and cheaper than just about any other country.
@@ -436,7 +457,7 @@ articles:
       easier option is to use one of the many travel agencies around town and they
       will handle your visa extension for a cost of $280. Renewing your visa is just
       as easy and there is no requirement for you to make a border run or leave the
-      country. \r\n\r\n**Driving**\r\n\r\nYour first time driving in Cambodia will
+      country. \r\n\r\n###Driving\r\n\r\nYour first time driving in Cambodia will
       probably be an intimidating experience. It may seem like the traffic is chaotic
       and coming from all directions, but don’t worry, you’ll be an old hand in no
       time. Phnom Penh is the worst of it, with frequent traffic jams and overloaded
@@ -449,13 +470,13 @@ articles:
       country, a copy of your passport showing your one-year visa, 4 pictures, and
       $60. They will give you a temporary permit that allows you to start driving
       legally that same day. You should receive your official license within three
-      weeks. That’s it.\r\n\r\n**Opening a Bank Account**\r\n\r\nIn order to open
-      a bank account in Cambodia, you will have to provide either proof of local employment
+      weeks. That’s it.\r\n\r\n###Opening a Bank Account\r\n\r\nIn order to open a
+      bank account in Cambodia, you will have to provide either proof of local employment
       or a lease contract. With one or the other and your passport showing your one-year
       visa, you will have little difficulty opening an account at any of the Cambodian
       banks around town. You will also find that they speak English in almost all
-      banks, so communicating with the employees shouldn’t be a problem. \r\n\r\n**Deciding
-      Where to Live**\r\n\r\nThis is a completely personal choice depending upon what
+      banks, so communicating with the employees shouldn’t be a problem. \r\n\r\n###Deciding
+      Where to Live\r\n\r\nThis is a completely personal choice depending upon what
       you are looking for. Most expats living in Cambodia live in Phnom Penh, Siam
       Reap, or Sihanoukville; but that doesn’t mean that there are not a number of
       other viable options. If you like peace and quiet, you might prefer living in
@@ -468,11 +489,11 @@ articles:
       keeping a bit of a small town feel. My best recommendation would be to come
       here and spend a month in each of the cities you are considering living. Renting
       a hotel or small apartment on a month-to-month basis is cheap and it will allow
-      you to figure out which city offers the best atmosphere for you. \r\n\r\n**Renting
-      a Place **\r\n\r\nCurrently, foreigners are not allowed to own land and can
-      only purchase 2nd floor and higher properties. For this reason, most expats
-      living in Cambodia choose to rent. When looking for a place to live, it is easier
-      to just use one of the real estate agents in town, it won’t be any more expensive
+      you to figure out which city offers the best atmosphere for you. \r\n\r\n###Renting
+      a Place\r\n\r\nCurrently, foreigners are not allowed to own land and can only
+      purchase 2nd floor and higher properties. For this reason, most expats living
+      in Cambodia choose to rent. When looking for a place to live, it is easier to
+      just use one of the real estate agents in town, it won’t be any more expensive
       and finding homes or apartments for rent on your own can be very difficult.
       Most of them are poorly advertised and many not at all. Expect your realtor
       to get one month’s rent as commission, but don’t worry as this is paid from
@@ -480,7 +501,7 @@ articles:
       to $700 a month for western style apartments, with number of fancy, modern-style
       lofts available for $1000 or more. Homes in Phnom Penh start around $300 a month
       for Khmer style and $500 a month for something a bit more westernized. Down
-      in the beachside town of Sihanoukville prices are a bit cheaper with western
+      in the beach side town of Sihanoukville prices are a bit cheaper with western
       style apartments ranging from $200 to $550. Khmer style homes can be rented
       as low as $200 a month and western styled homes or villas start around $400.
       You can find small studios for around $100 a month just about anywhere in Cambodia.
@@ -491,155 +512,693 @@ articles:
       the English language and, in the cities; most people under 25 speak it, as does
       everybody involved in the tourist industry; western restaurants, financial buildings,
       grocery stores, etc. With the ease of moving to Cambodia nowadays, the only
-      thing left for you to do is book your ticket. \r\n"
+      thing left for you to do is book your ticket. \r\n\r\n**Article written by Brett
+      Dvoretz**\r\n"
     - '1'
-    - ''
-    - ''
+    - Learn how you to can start your new life in Cambodia with some great tips on
+      getting a long-term visa, opening a bank account, and renting an apartment
+    - cambodia visa, move to cambodia, cambodia business visa, renting in cambodia,
+      moving to cambodia
     - '2014-05-31 15:14:22.520265'
-    - '2014-06-01 05:38:17.7989'
+    - '2014-08-25 13:45:04.472401'
     - true
   - - '7'
-    - How to Travel Internationally with your Dog
+    - 'How to Travel Internationally with your Dog '
     - Vitaly_Titov___Maria_Sidelnikova__shutterstock_66459049.jpg
     - "Bringing your dog along with you to live in another country may seem like a
-      daunting task. If you’ve found this web page, then you’re probably already waste
+      daunting task. If you’ve found this web page, then you’re probably already waist
       deep in useless drivel about how hard it is, advertisements for dog shipping
-      companies, and these seemingly legit websites that will give all the documents
-      you need for the process for just a small fee. \r\n\r\nWell, I am here to tell
-      you to take a breath. It’s not that hard. You can do it yourself and you don’t
-      need to spend crazy amounts of money either.  What if I told you that I brought
-      a 130lb mastiff from California to live with me in Cambodia and I spent less
-      than $500 on the whole process? Including the cage and the flight? \r\n\r\nHere
-      is a list of the documents you will need to exit the U.S. with your dog (and
-      for entering most countries)\r\n\r\n* Proof of rabies vaccination more than
-      30 days, but no greater than one year before travel\r\n\r\n* International Health
-      Certificate prepared by a USDA certified Veterinarian within 10 days of travel\r\n\r\n*
-      Approval Stamp on Health Certificate from USDA office (you can find a USDA office
-      near you online. This page is a good resource of information for USDA regulations.
-      http://www.aphis.usda.gov/regulations/vs/iregs/animals/animal_faq.shtml#eight)\r\n\r\n*
+      companies, and those seemingly legit websites that will give you all the travel
+      documents you need for just a small fee. \r\n\r\nWell, I am here to tell you
+      to take a breath. It’s not that hard. You can do it yourself and you don’t need
+      to spend crazy amounts of money either.  What if I told you that I brought a
+      130lb mastiff from California to live with me in Cambodia and I spent less than
+      $500 on the whole process? Including the cage, the travel documents, and the
+      flight? \r\n\r\nHere is a list of the documents you will need to exit the U.S.
+      with your dog (and for entering most countries)\r\n\r\n* Proof of rabies vaccination
+      more than 30 days, but no greater than one year before travel\r\n\r\n* International
+      Health Certificate prepared by a USDA certified Veterinarian within 10 days
+      of travel\r\n\r\n* Approval Stamp on Health Certificate from USDA office (you
+      can find a USDA office near you online. This page is a good resource of information
+      for USDA regulations. http://www.aphis.usda.gov/regulations/vs/iregs/animals/animal_faq.shtml#eight)\r\n\r\n*
       Copies of your dog’s inoculation records \r\n\r\nPay attention to the small
-      details above, they are important. Rabies vaccination needs to be less than
-      one year old, but greater than 30. International Health Certificate must be
-      done within 10 days of travel. These details are vital.\r\n\r\nHere is where
-      it does actually get a bit tricky. Each country has its own specific regulations
-      for what you need to enter with your dog. There is no easy answer here, except
-      do a bit of internet legwork. Check some message boards about the country you
-      are moving to and be sure to look for an official government website which the
-      documents you need and the process you need to take. If you are finding it difficult
-      to find the information you need, then try sending e-mails to the embassy and
-      agriculture, livestock, or customs departments. Many countries will require
-      a Lepto vaccination which a lot of US dogs living in cities don’t have.  Some
-      countries may require a pre-issued import permit. Also check your airline because
-      some airlines have regulations of their own.  All of this you can do yourself,
-      just put the time in, send the e-mails or make the phone calls, and don’t get
-      crazy.\r\n\r\nMy destination of choice was Cambodia, unfortunately, because
-      of the aforementioned large size of my dog and his giant sized crate; I couldn’t
-      fly into Cambodia and had to go to either Thailand of Vietnam. \r\n\r\nI choose
-      Vietnam and learned that I needed a Pet import permit issued by Vietnam’s Department
-      of Animal Health. I made many attempts to call and e-mail the Department of
-      Animal Health in Vietnam, but to no avail. I only got response to my many e-mails
-      and it was just a pamphlet with less information that I already had. I decided
-      to just go ahead without it. \r\n\r\nI highly recommend Japan Airlines for traveling
-      with your dog. They have one of the cheapest prices, and better yet, they take
-      good care of your dog. They will let you know how your dog is after he is boarded
-      at each destination and, if there is a long enough layover, they may let you
-      walk your dog. Hats off to them for their great service in this area and they
-      even have a frequent flyer club for pets. \r\n\r\nArrival in Vietnam was easy.
-      After a 20 hour flight, my dog was waiting for me near the luggage carousel
-      happy and healthy. Nobody asked any questions as I wheeled him though customs
-      and out the airport. After months of worry, it was all over; cheap and painless.
-      We hopped in a taxi and started on our way to the Cambodia border where the
-      crossing would prove to just as easy. I showed them a photo of my dog and his
-      health certificate and we walked right in. It was that easy and you can do it
-      too.\r\n\r\nSo let’s go over a price run down.\r\n\r\nInternational Health Certificate:
-      $110\r\n\r\nRabies Vaccination: $35\r\n\r\nUSDA Approval Stamp: $24\r\n\r\n48”
-      x 34” x 36” Crate: $150 (store gave me a 20% off coupon, original price $210)\r\n\r\nJapan
-      Airlines Cargo Fee: $175\r\n\r\nTotal Cost: $494\r\n\r\nIf you need some tips
-      on finding the best airline for your destination, try reading ___________________.
-      \r\n\r\nOne of the biggest issues with moving a dog is rabies, so if you are
-      moving to an island nation or some other country that doesn’t have rabies you
-      will have to read --------------------------  as entering won’t be quite so
-      easy. These countries have strict quarantine regulations to prevent the spread
-      of rabies. Don’t worry though; we’ve got some secrets for you to avoid leaving
-      your pet in some quarantine facility."
+      details above, they are important. The rabies vaccination needs to be less than
+      one year old, but greater than 30 days. The International Health Certificate
+      must be done within 10 days of travel. These details are vital.\r\n\r\nHere
+      is where it actually begins to get a bit tricky. Each country has its own specific
+      regulations for what you need to enter with your dog. There is no easy answer
+      here, except do a bit of internet legwork. Check some message boards about the
+      country you are moving to and be sure to look for an official government website
+      which lists the documents you need and the process. If you are finding it difficult
+      to locate the information you need, try sending e-mails to the embassy and agriculture,
+      livestock, or customs departments. Here's a few other things you should keep
+      in mind. Many countries will require a Lepto vaccination which a lot of US dogs
+      living in cities don’t have. Some countries may require a pre-issued import
+      permit. Also check with your airline because some have their own regulations.
+      All of this you can do yourself, just put the time in, send the e-mails or make
+      the phone calls, and don’t get crazy.\r\n\r\nMy destination of choice was Cambodia,
+      unfortunately, because of the aforementioned large size of my dog and his giant
+      sized crate, I couldn’t fly into Cambodia and had to go to either Thailand of
+      Vietnam. \r\n\r\nI choose Vietnam and learned that I needed a Pet import permit
+      issued by Vietnam’s Department of Animal Health. I made many attempts to call
+      and e-mail the Department of Animal Health in Vietnam, but to no avail. I only
+      got one response to my many e-mails and it was just a pamphlet with less information
+      that I already had. So I made a choice and decided to go ahead without it. \r\n\r\nI
+      highly recommend Japan Airlines for traveling with your dog. They have one of
+      the cheapest prices, and better yet, they take great care of your dog. They
+      will let you know how your dog is after he is boarded at each destination and,
+      if there is a long enough layover, they may let you walk your dog. Hats off
+      to them for their great service in this area and they even have a frequent flyer
+      club for pets to boot. \r\n\r\nArrival in Vietnam was easy. After a 20 hour
+      flight, my dog was waiting for me near the luggage carousel happy and healthy.
+      Nobody asked any questions as I wheeled him though customs and out the airport.
+      After months of worry, it was all over; cheap and painless. We hopped in a taxi
+      and started on our way to the Cambodian border where the crossing would prove
+      to be just as easy. I showed them a photo of my dog and his health certificate
+      and we walked right in. It was that easy and you can do it too.\r\n\r\nSo let’s
+      go over a price run down.\r\n\r\nInternational Health Certificate: $110\r\n\r\nRabies
+      Vaccination: $35\r\n\r\nUSDA Approval Stamp: $24\r\n\r\n48” x 34” x 36” Crate:
+      $152 (the store gave me a 20% off coupon, original price $190)\r\n\r\nJapan
+      Airlines Cargo Fee: $175\r\n\r\nTotal Cost: $496\r\n\r\nOne of the biggest issues
+      with moving a dog is rabies, so if you are moving to an island nation or some
+      other country that doesn’t have rabies you will have to read [Avoid Quarantine
+      When Moving to Japan with Your Dog](http://expatsandaliens.com/articles/2) as
+      entering won’t be quite so easy. These countries have strict quarantine regulations
+      to prevent the spread of rabies. Don’t worry though; we’ve got some secrets
+      for you to avoid leaving your pet in some scary government quarantine facility.\r\n\r\n\r\n**Article
+      written by Brett Dvoretz**"
     - '5'
-    - ''
-    - ''
+    - Traveling overseas with your dog is easier than you think. Here is a few simple
+      tips to help
+    - pet movers, flying with dog, dog overseas, move with pet, bring dog, dog on
+      airplane
     - '2014-05-31 15:16:51.736306'
-    - '2014-05-31 17:53:11.731412'
-    - false
+    - '2014-08-26 03:34:14.197333'
+    - true
   - - '8'
-    - '40 Reasons Mother Nature is Telling you to get a Passport: Part 1 (1-10)'
-    - Bolivia_salt_flats_Vadim_Petrakov_shutterstock_187292807.jpg
+    - '20 Reasons Mother Nature is Telling you to get a Passport: Part 1 (1-10)'
+    - serengeti-1920.jpg
     - "Finally the number of Americans getting passports has started to rise. More
       and more Americans have begun traveling overseas whether for better work opportunities
       or leisure travel. \r\n\r\nBut still, out of 315 million Americans only 110
       million have passports. Are you one of the them?\r\n\r\nIf not, let me show
-      you 15 reasons Mother Nature wants you to get a passport\r\n\r\n1. Aogashima
-      Volcano, Japan\r\n\r\na. Over 200 miles south of Tokyo in the Philippine Sea
-      is Aogashima; the most isolated inhabited island in Japan. This small volcanic
-      island is ringed by almost impenetrable rugged cliffs and is formed around an
-      active volcano which last erupted in the late 1700’s. Today, the island is accessible
-      only by boat, and there is a small village with roughly 200 inhabitants.\r\n\r\n2.
-      Hang Son Doong, Vietnam\r\na. Recently discovered, Hang Son Doong is the world’s
-      largest cave and it actually contains a thriving underground forest ecosystem.
-      This magnificent cave is part of a combination of over 150 interconnected cave
-      systems with caverns tall enough to house a skyscraper. Scientists and explorers
-      made their first expedition into the cave in 2009 and it has only been open
-      to tourists since the beginning of 2014. \r\n\r\n3. Tianzi Mountain, China\r\na.
-      The Tianzi Mountain is actually used as a viewing point for the Wulingyuan Peak
+      you **10 reasons Mother Nature wants you to get a passport**\r\n\r\nKnown as
+      the world’s largest reflective mirror, Salar de Uyuni (the Salt Flats of Bolivia),
+      is located in the south of Bolivia. \r\n\r\n**Salt Flats, Bolivia**\r\n\r\n![Alt
+      Salt Flats, Boliva](https://s3.amazonaws.com/ExpatsandAliens/Destinations/Bolivia-salt-flats-768.jpg)\r\nThe
+      best time to visit is during the rainy season, when a thin sheet of water covers
+      the flats and it forms a giant mirror image of the sky. It’s also a great place
+      for some fun camera shenanigans as the all white background creates an image
+      with a false depth perception.  Check this (http://www.huffingtonpost.com/2014/02/03/bolivia-salt-flats-photos_n_4689867.html)
+      out for some fun photos from Salar de Uyuni.\r\n\r\n\r\n**Aogashima Volcano,
+      Japan**\r\n[![Alt Aogashima](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/aogashima-512.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/aogashima-0%5B6%5D.jpg)\r\nOver
+      200 miles south of Tokyo in the Philippine Sea is Aogashima; the most isolated
+      inhabited island in Japan. This small volcanic island is ringed by almost impenetrable
+      rugged cliffs and is formed around an active volcano which last erupted in the
+      late 1700’s. Today, the island is accessible only by boat, and there is a small
+      village with roughly 200 inhabitants.\r\n<br></br>\r\n\r\n\r\n**Hang Son Doong,
+      Vietnam**\r\n[![ALT Hang-Son-Doong](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Hang%20Son%20Doong-480.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Hang%20Son%20Doong.jpg)\r\nRecently
+      discovered, Hang Son Doong is the world’s largest cave and it actually contains
+      a thriving underground forest ecosystem. This magnificent cave is part of a
+      combination of over 150 interconnected cave systems with caverns tall enough
+      to house a skyscraper. Scientists and explorers made their first expedition
+      into the cave in 2009 and it has only been open to tourists since the beginning
+      of 2014. \r\n<br></br>\r\n\r\n\r\n**Tianzi Mountain, China**\r\n[![ALT Tianzi-Mountains-China](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/wulingyuan-768.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/wulingyuan%20alet%20shutterstock_107460662.jpg)\r\nThe
+      Tianzi Mountain is actually used as a viewing point for the Wulingyuan Peak
       Forest; a stunning array of thin, quartz – sandstone pillars jutting over 4,000
       feet straight into the air. Many of the scraggly peaks are tree covered and
       appear to be islands floating on a sea of clouds. This primordial landscape
-      provided inspiration for some of the stunning vistas in the movie Avatar.  \r\n\r\n4.
-      Waitomo Glow Worm Cave, New Zealand\r\na. An illuminated underground wonderland
-      that looks like something straight out of a sci-fi movie; places like this just
-      don’t seem like they should exist in the real world. The glow is created by
-      tiny phosphorescent worms that hang from the ceiling. \r\n\r\n5. Great Blue
-      Hole, Belize\r\na. Ok, so the Great Blue Hole is probably on every diver’s bucket
-      list. It is known for its crystal clear, blue water and large variety of aquatic
-      life. At its deepest point, the Blue Hole is about 400 feet deep, but what makes
-      it so interesting is its perfectly circular shape and shallow surroundings which
-      stand in stark contrast to the deep blue color of the hole.\r\n\r\n6. Salt Flats,
-      Bolivia\r\na. Known as the world’s largest reflective mirror, Salar de Uyuni
-      (the Salth Flats of Bolivia), is located in the south of Bolivia. The best time
-      to visit is during the rainy season, when a thin sheet of water covers the flats
-      and it forms a giant mirror image of the sky. It’s also a great place for some
-      fun camera shenanigans as the all white background creates an image with a false
-      depth perception.  Check this (http://www.huffingtonpost.com/2014/02/03/bolivia-salt-flats-photos_n_4689867.html)
-      out for some fun photos from Salar de Uyuni.\r\n\r\n7. Plitvice Lakes National
-      Park, Croatia\r\na. Croatia’s most popular tourist destination and a UNESCO
-      world heritage site, The Piltvice National Park is known for its 16 brightly
-      colored lakes connected by cascading waterfalls. The lakes are constantly changing
-      colors due to amount of minerals in the water and the angle of the sunlight.
-      \ It’s also home to a wide assortment of wildlife including bears, wolves, foxes,
-      and numerous bird species. \r\n\r\n8. Bioluminescent Bay, Puerto Rico\r\na.
-      While there are many areas with bioluminescent plankton around the world, few
-      are so dramatic as Bio-Bay in Fajardo. Bright flashes of color will illuminate
-      around you as your paddle hits the water and you kayak your way upstream into
-      the perfectly calm and still waters of the bay.  Startled fish will create bright
-      tracers or light underwater as they scatter. Try and plan your trip for a night
-      with a small moon.\r\n\r\n9. Angel Falls, Venezuela\r\n\r\n![Angel Falls, Venezuela](http://gnblifestyle.s3.amazonaws.com/manual/mother_nature/Angel_Falls_Venezuela.jpg)\r\n\r\na.
-      Angel Falls is the world’s highest uninterrupted waterfall standing at over
-      3,000 feet. The height of the falls is so great that the water actually disperses
+      provided inspiration for some of the stunning vistas in the movie Avatar.  \r\n<br></br>\r\n\r\n\r\n**Waitomo
+      Glow Worm Cave, New Zealand**\r\n[![alt Waitomo-Glow-Worm-Cave](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Gloworm2-512.jpeg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Gloworm2.jpeg)\r\nAn
+      illuminated underground wonderland that looks like something straight out of
+      a sci-fi movie; places like this just don’t seem like they should exist in the
+      real world. The glow is created by tiny phosphorescent worms that hang from
+      the ceiling. \r\n<br></br>\r\n\r\n\r\n**Great Blue Hole, Belize**\r\n[![alt
+      Great-Blue-Hole-Belize](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Belize%20Blue%20Hole-512.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Belize%20Blue%20Hole%20Wata51shutterstock_128098937.jpg)\r\nOk,
+      so the Great Blue Hole is probably on every diver’s bucket list. It is known
+      for its crystal clear, blue water and large variety of aquatic life. At its
+      deepest point, the Blue Hole is about 400 feet deep, but what makes it so interesting
+      is its perfectly circular shape and shallow surroundings which stand in stark
+      contrast to the deep blue color of the hole.\r\n<br></br>\r\n\r\n**Plitvice
+      Lakes National Park, Croatia**\r\n[![alt Plitvice-Lakes-Croatia](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Plitvice-Lakes-in-Croatia.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/Plitvice-Lakes-in-Croatia.jpg)\r\nCroatia’s
+      most popular tourist destination and a UNESCO world heritage site, The Piltvice
+      National Park is known for its 16 brightly colored lakes connected by cascading
+      waterfalls. The lakes are constantly changing colors due to amount of minerals
+      in the water and the angle of the sunlight.  It’s also home to a wide assortment
+      of wildlife including bears, wolves, foxes, and numerous bird species. \r\n<br></br>\r\n\r\n**Bioluminescent
+      Bay, Puerto Rico**\r\n[![alt Bioluminescent-Bay-Puerto-Rico](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/bioluminescent-bay-puerto-rico.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/bioluminescent-bay-puerto-rico.jpg)\r\nWhile
+      there are many areas with bioluminescent plankton around the world, few are
+      so dramatic as Bio-Bay in Fajardo. Bright flashes of color will illuminate around
+      you as your paddle hits the water and you kayak your way upstream into the perfectly
+      calm and still waters of the bay.  Startled fish will create bright tracers
+      or light underwater as they scatter. Try and plan your trip for a night with
+      a small moon.\r\n<br></br>\r\n\r\n**Angel Falls, Venezuela**\r\n[![alt Angel-Falls-Venezuela](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/angel%20falls-512-x-768.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/angel%20falls%20Lukas%20Uher%20shutterstock_189650276.jpg)\r\nAngel
+      Falls is the world’s highest uninterrupted waterfall standing at over 3,000
+      feet. The height of the falls is so great that the water actually disperses
       into a mist before it reaches the bottom. Despite being one of Venezuela’s top
       tourist attractions, visiting the falls is a complicated event due to its isolated
       location. The best way to visit is a river rafting trip during the rainy season.
-      \r\n\r\n10. The Serengeti, Tanzania\r\na. The Serengeti spans some 12,000 sq.
-      miles bordering northern Tanzania and southern Kenya and hosts the largest land
-      mammal migration in the world. It is one of the 10 natural wonders of the world
-      and one of the best places to observe prides of lions in their natural habitat.
-      Visit the Serengeti to experience the perfect African safari. \r\n\r\nIf this
-      list wasn’t enough to inspire you to get out there and see the world…. well
-      honestly, I don’t know what is wrong with you.\r\n\r\nBut just in case you need
-      an extra little kick in the you know what to get moving, check out Man vs Nature:
-      15 Stunning Places Around the World or 40 Reasons Mother Nature is Telling you
-      to Get a Passport: Part 2 (11-20)\r\n "
-    - '2'
-    - ''
-    - ''
+      \r\n<br></br>\r\n\r\n\r\n**The Serengeti, Tanzania**\r\n[![alt Serengeti-Tanzania](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/serengeti-512.jpg)](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/20-reasons-mother-nature-is-telling-you-to-get-a-passport/20%20Reasons%20Mother%20Nature%20is%20Telling%20you%20to%20Get%20a%20Passport%20Part%201/serengeti%20Andrzej%20Kubik%20shutterstock_185414024.jpg)\r\nThe
+      Serengeti spans some 12,000 sq. miles bordering northern Tanzania and southern
+      Kenya and hosts the largest land mammal migration in the world. It is one of
+      the 10 natural wonders of the world and one of the best places to observe prides
+      of lions in their natural habitat. Visit the Serengeti to experience the perfect
+      African safari. \r\n<br></br>\r\n\r\n\r\nIf this list wasn’t enough to inspire
+      you to get out there and see the world…. well honestly, I don’t know what is
+      wrong with you.\r\n\r\nBut just in case you need an extra little kick in the
+      you know what to get moving, check out Man vs Nature: 15 Stunning Places Around
+      the World or 20 Reasons Mother Nature is Telling you to Get a Passport: Part
+      2 (11-20)\r\n\r\n**Article written by Brett Dvoretz**\r\n "
+    - '1'
+    - Amazing destinations around the globe that will inspire you to get a passport
+      and hit the road!
+    - natural wonders, amazing places, travel inspiration, most beautiful places,
+      amazing travel destinations
     - '2014-05-31 15:20:21.181128'
-    - '2014-06-22 06:46:47.710552'
+    - '2014-08-25 08:59:27.472748'
+    - false
+  - - '9'
+    - How To Start Freelance Writing
+    - Freelance-writing-1920.jpg
+    - "Want to be a paid freelance writer? ]\r\n\r\nOf course. The thought of getting
+      out of the nine to five ground is appealing to all of us. It's possible. It
+      just takes a little work and dedication. Just like anything else, you have to
+      put in your dues. Don't expect to just apply to a few job ads and all of a sudden
+      become a high paid writer. Most writers start out making pennies per word. But
+      if you do it right, don't waste time on useless tasks that don't produce results,
+      and are willing to push yourself to become better; you can quickly be making
+      $200 or more an article. \r\n\r\nDespite this being covered in many other articles,
+      every paid freelance writer gets there in a different way. Your route will probably
+      be a combination of many tactics you find online. Besides, I feel that most
+      forget to offer the most basic piece of advice. \r\n\r\n##This is How I Became
+      a Freelance Writer  \r\n\r\n###STEP 1: Honing Your Craft\r\nSo let’s start at
+      the beginning, and I really mean the beginning. The best and most important
+      thing you can do to start your freelance writing career is to **start writing**.
+      I know that sounds simple, but in actuality it’s usually one of the last steps
+      people take when trying to break into the writing field. Most people start by
+      applying to websites or magazines as writers with little or no sample pieces
+      available to show editors. You may know that you are a good writer, but the
+      editor reading your e-mail doesn’t know you from Adam. So you are going to need
+      to be able to produce relevant samples before you will have much luck landing
+      any freelance writing gigs. Until you have those, you are just wasting time
+      going after the big boys. \r\n\r\nWhen I say start writing, I don’t mean just
+      writing a journal or some personal blog either. You need to write articles that
+      would potentially work as portfolio pieces in the industries you want to be
+      writing. If you want to be a travel writer start writing travel stories, if
+      you want to be a financial writer then start writing financial articles. Not
+      only will it build up your portfolio, it will improve your writing. This cannot
+      be overstated. The more you write, the better you will get. So get those kinks
+      out now and get used to writing. This way, when you get that first paid gig,
+      you are ready to handle the job and used to producing content regularly. Besides,
+      you might even actually wind up selling some of them down the line. I have written
+      a number of articles expecting to post them on my website, but instead wound
+      up selling them to other websites or publications.\r\n\r\nOk, so now you are
+      writing regularly, you are getting good at it, and you have built up a decent
+      looking portfolio. What’s next?\r\n\r\n###STEP 2: Your Reputation\r\nNow you
+      start building your reputation. You need to get some of your articles online
+      where people can find them. A lot of editors won’t even look at you unless you
+      can send them published samples. Something they can see online or in print somewhere.
+      \r\n\r\nSo, how do you get something published if nobody hires you? \r\n\r\nWrite
+      for free, that’s how. Yup that's right. You are gonna have to work for free
+      to really jump start your career. This can help you avoid getting stuck working
+      at some content mill were everything is ghost written.\r\n\r\nSearch out websites
+      in your niche that accept guest posts and start contacting them. Alternatively
+      you can find a friend or business that needs website content and offer your
+      services for free. It shouldn’t take too much work to find somebody willing
+      to accept your writing for free and give you credit, especially if it is good.
+      \r\n\r\n###STEP 3: Getting Paid Work\r\nNow that you have a portfolio and published
+      work, you will find that getting paid work becomes much easier. You will also
+      be able to start at a higher wage than if you were coming in clean and fresh
+      with no samples and no published works. There are a few ways to find good paid
+      freelance writing work. You can use websites that are dedicated to listing higher
+      paying writing gigs such as [Problogger](www.jobs.problogger.net), [WriteJobs](writejobs.info),
+      or [Freelance Writing Jobs](http://www.freelancewritinggigs.com/category/writing-gigs/).
+      You can also search on Craigslist or apply directly with websites and magazines
+      that you want to write for. just be prepared to weed out a lot of terrible or
+      fake job ads on Craigslist. When applying directly with the websites and magazines,
+      make sure to read their writer guidelines first. There is no point in wasting
+      time applying if you can’t write the type of articles they are looking for.\r\n
+      \r\n**What about Freelancer Websites like Odesk?**\r\n  \r\nYou’ll notice that
+      I skipped one of the often mentioned techniques like trying to land jobs through
+      freelancer websites like Elance, Freelancer, or ODesk. I’ll tell you why. These
+      are bottom of the barrel sites. You need to wade through layers and layers of
+      crap before you can find one reasonable gig and then, without any previous reviews
+      or ratings, there is very little chance of you landing it. You will probably
+      be able to land some gigs that pay $10 for a thousand word article, if you are
+      lucky, and then, once they realize you are a native English speaker with some
+      skill, they will send a ton of low-paying work your way. That might seem like
+      a good thing at first, but it’s not. You see, if you are regularly writing 10,000
+      or 15,000 words a week, you won’t have much time to search for higher-paying
+      gigs. You will get burnt out and when you are done writing all those low-paying
+      articles all you will want to do at the end of the day is close your computer
+      and shut off your brain for a bit. The worst thing about those low-paying freelancer
+      websites, almost all of the work will be ghost written. \r\n\r\nThat means that
+      even if you spend the next three months writing 60 articles a month, all you
+      will have to show for it at the end is $1800, writer’s block, and nothing published.
+      You will be right back where you were at the beginning, a struggling writer
+      with no reputation hoping to land your first real gig. Better to spend the time
+      writing articles under your own name, honing your skill, and getting some work
+      published. At the end of the three months, editors will be able to search you
+      name on Google and a relatively impressive array of articles will come up which
+      makes you appear as a professional authority in your field. You might not have
+      much money to show for it, but be patient and the money will come. Soon you
+      will be able to land gigs paying $50 to $250 for those same thousand words.
+      \r\n\r\nSo that’s it. It may sound like a lot of work, and it is, but it’s worth
+      it in the end. As I write this article, I am sitting on a beautiful beach in
+      Cambodia. Coconut palms are swaying in the cool breeze blowing off the ocean
+      and in another hour, I will watch the sun set over the shimmering water, most
+      likely with a $0.50 beer in my hand. When I am done, I will get a $5 massage
+      as I listen to the sound of the waves lap the shore. \r\n\r\n![alt freelance
+      writing](https://s3.amazonaws.com/ExpatsandAliens/Making%20Money/How-to-start-freelance-writing/P1020614.JPG)\r\n\r\nI
+      am a freelance writer and this is my office.  Where will your new office be?\r\n
+      \r\n\r\n\r\n**Article written by Brett Dvoretz**"
+    - '3'
+    - Learn how to start freelance writing so you can live your dream of living abroad
+    - start freelance, freelance writing, how to start freelance writing, freelancing,
+      start writing
+    - '2014-06-23 11:58:39.748424'
+    - '2014-08-25 09:04:02.702042'
+    - true
+  - - '11'
+    - 'Thailand: Where Have All The Expats Gone?'
+    - 2_20Popartic_20shutterstock_162063647.jpg
+    - "Thailand.\r\n \r\nA beautiful paradise where life is easy, food is cheap, and
+      the people are friendly right?\r\n\r\nWrong.\r\n\r\nOver time, the land of smiles
+      has turned into the land with the best smiles money can buy. The hordes of tourists
+      and expats descending upon Thailand for the last 15 years has radically changed
+      many of the things that used to so enchant people. It’s not the Thai’s fault.
+      It’s inevitable and it eventually happens to every popular destination. \r\n\r\nFood
+      and beer that was once cheap, has become increasingly expensive; as has the
+      rent in popular destinations. Land ownership is impossible, long-term visas
+      are becoming more difficult to obtain, and there has been ongoing political
+      issues since 2007.\r\n \r\nThese days, more and more foreign expats living in
+      Thailand are picking up stake and looking for greener pastures. They are noticing
+      many of the neighboring countries have laxer visa regulations or better business
+      and investment opportunities. \r\n\r\n##Why the Expats are Leaving Thailand\r\n\r\n###Visa
+      Hassles\r\nWhile it was once relatively easy to stay in Thailand for long periods
+      of time, these days they are continually making it more and more difficult.
+      Most younger expats used to just stay in Thailand on short-term visas and make
+      a quick border run (or sometimes even use a service without them ever having
+      to leave the comfort of their own homes) every thirty days to renew. This is
+      no longer an option as the Thai government has since taken to only giving 15
+      day visas when entering overland and, even more recently, has stopped allowing
+      more than one overland entry without a valid reason. The time of quick border
+      runs in Thailand has come to an end. \r\n\r\nThere are a few options available
+      for long-term visas but they are generally reserved for retired or semi-retired
+      people over the age of 50 with proof of funds, foreigners married to locals,
+      students, and foreigners hired to work for Thai companies. This (http://www.hg.org/article.asp?id=20927)
+      is a useful resource to learn all the details about long-term Thai visa options.
+      \r\n\r\n###Limited Income Potential \r\nAnother big issue for many expats living
+      in Thailand is the limited earning potential they face and the inability to
+      own full rights to their business or land. Most expats find it extremely difficult
+      to find any kind of gainful employment other than teaching English, which barely
+      pays living wages. Whether it be from lack of Thai language skills, biased hiring
+      policies, or lack of jobs in an expats chosen area; most expats turn to the
+      option of starting their own business.\r\n\r\nOne of the initial problems with
+      owning and operating a business in Thailand is that, as a foreigner, you cannot
+      own more than 49 percent of your business, and in some cases 39%. The same goes
+      for your home or land. This is a big sticking point because if you ever have
+      a problem with your Thai partner, you basically have no rights in the Thai courts.\r\n\r\n###Political
+      Instability\r\nNot a lot needs to be said about the current political landscape
+      in Thailand. Just pick up an international newspaper or do a quick search online.
+      Nobody wants to live in a place that could potentially erupt into civil war
+      at a moment’s notice. Somehow it just doesn’t make for the best night’s sleep.
+      Thailand has been experiencing political turmoil since 2007. If you have been
+      entertaining even the slightest thought of moving to Thailand you should already
+      be aware of what’s going on, if not, you better start reading up. Unfortunately,
+      there doesn’t seem to be any immediate end to Thailand’s political issues. I’m
+      no political science major, but even I know martial law ain’t a good thing.\r\n\r\n###Rising
+      Cost of Living\r\nWhile once Thailand was a place where life was cheap and expats
+      could live comfortably on modest salaries or savings, this is no longer true.
+      Over the last ten years, Thailand’s cost of living has been rising at an alarming
+      rate. Rent in many of the popular expat areas is inching closer and closer to
+      prices you might find in the US. Beers cost $2 or $3 now instead of $0.50 or
+      a buck. Food gets more and more expensive every day. Gone are the days of living
+      for $1,000 a month in Phuket or Pattaya. These days, you are probably struggling
+      if you don’t have at least $2,000 or more.\r\n\r\n###Lured by Neighboring Countries\r\nWhen
+      comparing Thailand to some of its neighboring countries, it gets easier and
+      easier to see why the expats are leaving. Take for example Cambodia’s lax visa
+      regulations. One year, multiple-entry business visas can be obtained by just
+      about anybody for a nominal cost of $250. Malaysia is also another promising
+      option where foreigners can own 100% or their land, home, and business.\r\n\r\nUnless
+      Thailand starts welcoming expats with open arms again, it may soon find itself
+      with very few left calling it home.\r\n\r\n**Article written by Brett Dvoretz**
+      \r\n"
+    - '1'
+    - 'These days, more and more foreign expats living in Thailand are picking up
+      stake and looking for greener pastures. They are noticing many of the neighboring
+      countries have laxer visa regulations or better business and investment opportunities. '
+    - Thailand, expats, thai expat, living in thailand, thailand visa, movin to thailand
+    - '2014-08-17 04:21:36.486709'
+    - '2014-08-25 09:01:26.571082'
+    - false
+  - - '12'
+    - Avoid the Expat Gut
+    - 2_20kurhan_20shutterstock_125673773.jpg
+    - "If you’ve spent much time abroad, you’ve probably seen him; that humungous,
+      bloated old expat waddling down the street. Usually wearing a sweat soaked tank
+      top or, even more often, having forgone the shirt entirely to release his ever
+      expanding belly from the constraints of that XXL. \r\n\r\nThat’s the expat gut
+      and it could be yours too. \r\n\r\nSo what happened? How did he get like this?
+      \r\n\r\nWell, I could get into some long drawn out philosophical explanation
+      about low self-esteem and lack of self-respect, etc, ect; but this is neither
+      the time nor the place.  Truly the answer is probably simpler than all that
+      anyways. The long and short of it is this. He lives in a place with cheap booze,
+      cheap food, a general lack of social standards, and willing woman who don’t
+      care what he looks like (or more accurately pretend not to care, because it
+      is worth it to marry a western man.)\r\n\r\nMore important than how it happened
+      to him is the real question going through your mind right now. *How do I make
+      sure it doesn’t happen to me?* \r\n\r\n##Go Local\r\nUnless you live in Central
+      America, you have probably noticed that most of the locals are skinnier than
+      you. This is because Western food is generally fattier and much unhealthier
+      than Asian or other developing nation diets. Meat is expensive so most locals
+      tend to eat a lot of vegetables and there is a noticeable lack of cheese and
+      fatty dairy products as well. Unfortunately, many expats take their native tastes
+      along with them and search out unhealthy western foods in their new home. If
+      you take a gander into most expats’ fridges, you will see a plethora of western
+      foods and snacks. The fact that Americans are fatter than most other nations
+      is not breaking news (although it is nice to hear we have finally been surpassed
+      by Mexico as the fattest nation in the world. Go America!) Since most expats
+      do distinctly less exercise in their new countries, you can expect to gain weight
+      over time if you don’t adjust your diet. Don’t go seeking out large western
+      style portions for every meal. Instead, try eating at local restaurants. Not
+      only will it be easier on your pocket, you’ll notice that the portions are smaller
+      and the food is healthier.  \r\n\r\n##Exercise\r\nYeah. I know. Nobody likes
+      to exercise. Well too bad. Maybe as a kid you didn’t have to, but once you hit
+      30 it’s a new ballgame. You can’t eat like you used too and even with dieting,
+      you may notice that you are getting a little… how shall we say….fluffy. It’s
+      important to find a way to exercise and stay fit in your new country. Join a
+      gym if possible. If no gyms are around, start running in the evenings or early
+      mornings when it is not so hot. If you live near the beach, start swimming regularly.
+      There is nothing more motivating than working out with others so try looking
+      around your community for like-minded expats trying to stay fit. A lot of expat
+      communities have weekly runs or other activities they set up to help stay in
+      shape. The [Hash House Harriers](http://en.wikipedia.org/wiki/Hash_House_Harriers)
+      are a good example. They have groups all around the world and they meet once
+      a week to do 5K or 10K runs. Many of the less fit members choose to walk instead.
+      \r\n\r\n##Put Down that Beer!\r\nOk. This is a biggie. We all know beers cause
+      a beer gut and the expat gut is eerily similar in look and shape to the beer
+      gut. What’s that saying? If it looks like a duck and sounds like a duck, then
+      it must be a duck. Well, many expat guts are not so cleverly disguised beer
+      guts. It’s really no surprise when beers only cost $0.50 and there is no stigma
+      attached to having a 9am beer to wash down those eggs, but if you want any chance
+      at keeping that big ole’ belly away, you’re gonna have to put that beer down.
+      There is nothing wrong with having a couple of drinks here and there or even
+      getting hammered periodically; lord knows we all do it. It just can’t be your
+      lifestyle. You need other things besides drinking to occupy your time. Try getting
+      a hobby or starting a small business to keep you occupied, failing that set
+      yourself some limits. Maybe no drinks before 3pm or only drinking 3 days a week,
+      nothing too drastic, just some small changes to your lifestyle can do wonders
+      to help you avoid the expat gut. \r\n\r\n##Drink Water\r\nWhile this may not
+      sound like a waist trimming technique, water is like a miracle drug for your
+      body. Without it you won’t have the energy to exercise and you will just generally
+      feel crappy. Most expats have moved to warm tropical climates where it is easy
+      to get dehydrated, especially if you are just drinking beer all day (see section
+      above.) Regularly drinking water will not only give your more energy for that
+      new exercise regime (you know, that one you are starting after reading this
+      article), but it will also help you eat a little less. Try drinking a full bottle
+      of water 15 minutes before a meal. You will feel full quicker and eat less food.
+      Keeping hydrated will also help your body to fight off colds and other infections
+      you might otherwise succumb to. \r\n\r\n##Don’t go Overboard\r\nWe all know
+      men are womanizing, boozing, revelers who enjoy debauchery and often fall victim
+      to temptation, but we need to know when to say enough. Even if we live in a
+      place with little to no social standards and life seems like one big party,
+      we must learn to control ourselves. Moderation is key. There is nothing wrong
+      with a little of this and a little of that, just remember, a little dab will
+      do ya as they say. \r\n\r\nIn the end, it all comes down to your personal motivations
+      and self discipline. Do you do the things you do because society says you should
+      or because of your personal dedication to self-improvement? Do you want to be
+      happy when you look in that mirror every morning?\r\n\r\nIf you aren’t one of
+      the many who has already given up, try adopting some of these practices in your
+      daily life and you too can avoid looking like a beached whale in a foreign land.
+      \r\n\r\n\r\n**Article written by Brett Dvoretz**"
+    - '6'
+    - Make sure you avoid the expat gut when moving to your new homeland in paradise!
+    - staying fit, expat, international living, moving abroad, expat lifestyle, healthy
+      expat
+    - '2014-08-19 05:24:33.371613'
+    - '2014-08-25 09:02:25.449793'
+    - false
+  - - '13'
+    - Lost in Translation
+    - Funny_20Solution_20Studio_20shutterstock_150794741.jpg
+    - "At some point every expat is going to ask themselves if they should learn the
+      local language or not. Surprisingly, there are many exotic locations around
+      the world where you can easily get by on English alone. That’s one of the major
+      benefits of coming from an English speaking country; it’s a universal language
+      and widely spoken. Most often if you see group of people from mixed nationalities,
+      they will be conversing in English as it is generally a language the majority
+      of them will understand. \r\n\r\nBecause of English’s popularity around the
+      globe, many expats feel there is no reason to learn the local language and it
+      is not uncommon to find expats living in Thailand, Cambodia, or the Philippines
+      for over 10 years who only know a handful of phrases in the local dialect.\r\n\r\nSo
+      the question is “*Is there any real need for you to learn the local language?*”\r\n\r\nIn
+      all honestly, the answer is usually no. Many expats live perfectly happy lives
+      in their new homeland without ever bothering to learn the local language, but
+      while there may not be a need, there are certainly a number of compelling reasons
+      why you should. In doing so, living in your new homeland will be more fun and
+      less frustrating.  \r\n\r\n##Benefits of Learning the Local Language\r\n\r\n###Cheaper
+      prices\r\n\r\nIf you have any proficiency in the local dialect, you will immediately
+      notice the prices are lower than what you used to be quoted when you spoke English.
+      Tourists pay higher prices for things than locals or even long-term expats.
+      Once the seller understands that you are not a tourist, they will assume you
+      already know the correct price. You still might not get the local price, but
+      the chances of getting terribly ripped off are reduced.\r\n\r\n###Make more
+      local friends\r\n\r\nOne of the great things about living in another country
+      is getting to know the people and making new friends. Anything that helps you
+      to communicate with the locals will increase your chances of creating meaningful
+      friendships with them. Most expats who don’t speak the language will have very
+      few if any local friends and will wind only interacting with other expats.\r\n\r\n###Life
+      is less frustrating\r\n\r\nEven if it seems like they speak a ton of English
+      in your new home country, there is bound to be communications break downs at
+      times. There will also inevitably be situations when you are dealing with people
+      who don’t speak English. There is going to be many times throughout your day
+      when speaking the local language will just make life easier.\r\n\r\n###People
+      will be friendlier\r\n\r\nWith just a quick conversation in their local language,
+      you will immediately notice a change in their attitude and demeanor. Don’t worry
+      about making mistakes; people are generally impressed and happy that you have
+      taken the time and effort to learn some of their language. As your foreign language
+      skills get better, you will notice yourself being more and more included in
+      the local community. \r\n\r\n###Helps you to understand the culture \r\n\r\nYou
+      can learn a lot about a culture by learning to speak their language. The way
+      they use phrases and their combination of words gives a great insight into their
+      psyche and helps you to better understand why they do the things they do.  \r\n<br></br>\r\n##Reasons
+      Many Expats Choice Not to Learn the Language\r\n\r\n###Need to dedicate a lot
+      of time to studying and practicing\r\n\r\nLearning a language takes time and
+      effort. You will need to dedicate yourself and be prepared for a long, uphill
+      battle. You will have to take classes, study at home, and practice it out in
+      the streets. It won’t happen overnight and sometimes it might feel as if you’ve
+      hit a brick wall and just can’t understand a thing.  Overall it’s a frustrating
+      but rewarding experience.\r\n\r\n###Lessons can get costly\r\n\r\nIn truth,
+      most language lessons in developing countries are quite cheap and you can probably
+      afford to choose between private lessons or attending a school, but everybody
+      has a different budget and some might find that the lessons can becomes costly
+      over time. After all, to truly become proficient in a language, you will need
+      to be studying for a minimum of a year.\r\n\r\n###Might not be useful once you
+      leave the country\r\n\r\nUnless you are learning Spanish or Chinese, there is
+      a good possibility that once you leave that country, you may never find yourself
+      using that language again. All of your time, money, and effort will have been
+      for naught and by the time you ever get around to visiting that country again
+      you may have forgotten it all anyways. Or, if you’re like me, you might one
+      day find yourself speaking Khmer with a Cambodian gentleman in a casino in North
+      Carolina. It might not help me in my life, but it certainly put a smile on his
+      face. \r\n\r\nIn my eyes, learning the local language is worth every frustrating
+      moment and every day it makes my new country feel more and more like home. \r\n\r\n**Article
+      written by Brett Dvoretz**\r\n"
+    - '1'
+    - Living lost in translation or learning the local language; What to do?
+    - expat, expat life, becoming an expat, moving to thailand, moving to cambodia,
+      moving to the philippines
+    - '2014-08-23 06:32:31.784788'
+    - '2014-08-25 09:04:18.680419'
+    - true
+  - - '14'
+    - 'Medical Care in Cambodia: The Good, The Bad, and The Ugly'
+    - Adisorn_20Saovadee_20shutterstock_170613215.jpg
+    - "Getting sick in a foreign land is a scary experience for travelers and expats
+      alike. The minor amusement you find being lost in translation and surrounded
+      by people speaking a strange and unusual language quickly goes out the window
+      when you are sick and your health is in jeopardy. Suddenly that language barrier
+      seems insurmountable and all you want to do is find a doctor that speaks your
+      language. Somebody to tell you everything is going to be all right. That they
+      know what is wrong with you and how to fix it. \r\n\r\nAlas, most foreigners
+      living in Cambodia don’t have that luxury. The only city in Cambodia where you
+      have access to an almost-acceptable standard of healthcare is Phnom Penh. The
+      rest of the country is generally filled with underfunded, underequipped hospitals
+      with a number of under-educated doctors. This is not a slight on Khmer doctors
+      either; you will also find a number of shady Russian, Ukrainian, and Chinese
+      doctors as well. \r\n\r\nSo what do we do when we get sick? How do the expats
+      stay healthy?\r\n\r\nThe majority of the expats I know living here try and avoid
+      doctors at all costs. Unless there is something seriously wrong, most choose
+      to try and self diagnose and medicate or ignore their problems and hope they
+      eventually get better. Neither option being a smart choice but generally considered
+      safer than seeing a doctor in most parts of the country.\r\n\r\n##Sihanoukville
+      Hospitals\r\n![ALT Sihanoukville Hospital](https://s3.amazonaws.com/ExpatsandAliens/staying%20healthy/Medical%20Care%20in%20Cambodia/dboystudio%20shutterstock_86376103.jpg)\r\n\r\nIn
+      the beach town of Sihanoukville where I live, they have opened a few “international”
+      hospitals in the last few years, none of which are up to international standards.
+      Despite a multitude of warnings, I have defied all logic and actually given
+      three of them a chance. After all, until you find out for yourself it’s all
+      just hearsay isn’t it?\r\n\r\n###Eriko Clinic\r\nAt the newly opened Eriko Clinic,
+      you have the option of either a Ukrainian doctor, with limited English abilities
+      who prescribes drugs at random without asking any questions about other medications
+      you might be on or giving any instructions on how best to take the meds he is
+      prescribing. Your other option is a Chinese doctor with no English abilities
+      whatsoever. When I saw him with an ear infection, he wanted to prescribe me
+      serious antiviral drugs that would generally be given to people suffering from
+      HIV or other severe life threatening viruses. \r\n\r\n###The CT Clinic\r\nThe
+      CT Clinic is another option most expats living in Sihanoukville thought might
+      be a good choice.  At the time they opened they were supposed to have the best
+      facilities in town and they even have a CT scanner, which you might have guessed
+      by the name. The CT Clinic only has Khmer doctors and they generally think of
+      foreigners as walking dollars. I saw the head doctor there complaining of side
+      effects from a course of antibiotics I given by the Ukrainian doctor at the
+      Eriko Clinic. Without even taking the time to look at me or ask me questions
+      about my problems, he ordered a blood test and a CT scan. As he spent most of
+      the time I was in his office being rather rude and looking at his phone instead
+      of me, I asked him if perhaps he did not like me for some reason, as he was
+      quite curt. He flat out told me most foreigners in Sihanoukville are bad people.
+      At this point I just got up and walked out of his office. \r\n\r\n###Sihanoukville
+      International Hospital\r\nMy next choice was to visit the Sihanoukville International
+      Hospital located on Ekreach Street; the main road in town. It looked nice from
+      the outside, but upon visiting with the Russian doctor there, it once again
+      became clear communication was an issue. He kept insisting on a STD test even
+      though I have been with the same partner for the last five years. He just kept
+      asking if I wanted an STD test and if not there is nothing else he can do. \r\n\r\nSo
+      what to do?\r\n\r\nWell, when all other options fail and it has become clear
+      that a doctor or hospital visit is in order, it’s time to hop on a bus and head
+      to Phnom Penh. At least in the capital you have the option of a few hospitals
+      that actually have English-speaking specialty doctors, sanitary room conditions,
+      and some of the technology needed to diagnose and treat semi-major medical problems.
+      \r\n\r\n##Phnom Penh Hospitals\r\n![ALT Phnom Penh Hospitals](https://s3.amazonaws.com/ExpatsandAliens/staying%20healthy/Medical%20Care%20in%20Cambodia/2706542860_efd11c7e7d_z.jpg)\r\n\r\nTwo
+      of the best options in Phnom Penh are the International SOS Medical and Dental
+      Clinic and the Royal Rattanak Hospital. Both are known for having competent
+      foreign doctors and internationally trained Khmer doctors. You can choose who
+      you would rather see. The service and bedside manner at both have been commended
+      by many expats and the truth is they are really your only choice if you are
+      not planning on leaving Cambodia for diagnosis and treatment. The SOS Clinic
+      can even arrange for emergency medivac if you are in a life threatening situation.
+      \r\n\r\n###International SOS Medical and Dental Clinic\r\nI have personally
+      seen the ENT specialist at the International SOS and I can attest to her thorough
+      inspection and diagnosis. One of the best qualities I found in her was that
+      she was willing to admit that my problem was something that could not properly
+      be diagnosed in Cambodia as they lack the medical equipment. She did her best
+      to help me the first time I saw her and when I came back the second time because
+      my condition reoccurred eight months later, she referred me to a hospital in
+      Singapore with specialists who could properly diagnose and treat me. The SOS
+      reception staff was professional and the hospital was spotlessly clean. I wouldn’t
+      hesitate to go back there for any medical needs I might have.\r\n\r\n###Royal
+      Rattanak Hospital\r\nIn regards to the Royal Rattanak Hospital, I personally
+      have not been a patient there, but did go with a friend of mine who was in a
+      motorcycle accident and treated for a broken arm and some stitches. While being
+      a bit pricey, the doctors were well educated and the hospital conditions were
+      sanitary with professional staff. Communication was no issue and my friend felt
+      relatively safe in their care. You will find many good reviews about them online.
+      \r\n\r\n##The Last Resort: Get Out of Dodge\r\nThe best way to stay healthy
+      in Cambodia is not to get sick or into an accident in the first place. Take
+      care of yourself, eat healthy and take vitamins to keep your immune system strong.
+      Don’t drive around on your motorcycle like a maniac and take a tuk-tuk if you
+      plan on getting drunk. If in need of major medical care, it’s time to hop on
+      a bus and head to the capital or take your chances and roll the dice. If your
+      problem is really life threatening and you are in need of surgery, your best
+      option would be to head to Bangkok or Singapore. Both places have excellent
+      medical facilities and relatively low costs when compared with the US.\r\n\r\n**Article
+      written by Brett Dvoretz** \r\n"
+    - '6'
+    - What to do when you get sick in Cambodia? A review on some of the hospitals
+      around town.
+    - medical care cambodia, doctor cambodia, hospital cambodia, hospital sihanoukville,
+      good hospital phnom penh, good hospital sihanoukville
+    - '2014-08-25 12:25:19.18416'
+    - '2014-08-26 03:33:24.970565'
+    - false
+  - - '15'
+    - 'Getting Hired as a Freelance Writer: It’s Not as Difficult as You Think'
+    - ollyy_20shutterstock_131284517.jpg
+    - "Website and magazine editors can receive hundreds of e-mails a day from writers
+      submitting articles for potential publication. So in a job market thousands
+      of people are trying to break into every day, how do you stand apart from the
+      all the would-be writers and present yourself as a professional? \r\n\r\nIt’s
+      easy. Just focus on quality over quantity and follow these simple tips. \r\n\r\n###Write
+      Personalized E-mails\r\nThis isn’t always easy and sometimes it is downright
+      impossible. Many companies go through great lengths to hide the name of their
+      editors and even with a lot of web researching, you might not be able to find
+      a name. Other times, it can be easy to find with just a little research. Perhaps
+      they have posted it somewhere in the job ad, you can check their website, or
+      there might be a name in the contact e-mail. As best you can, try and determine
+      who will be opening your e-mail and address it to them. “Dear Amanda” sounds
+      a lot better than “To the editor.”  \r\n\r\n###Read the Job Ad\r\nMost legitimate
+      freelance writing job ads will include a great number of details or direct you
+      to their website where you can learn more about them. It’s vital that you take
+      the time to read the entire ad and pay attention to the details. It’s even better
+      if you take a moment and read some of the articles currently published on their
+      website so you understand their style. If you don’t fit the requirements, don’t
+      bother replying because you are just wasting the editor’s time and yours.   \r\n\r\n###Follow
+      the Instructions\r\nOk. So now that you have taken the time to read their ad,
+      here comes the important bit: **follow what it says**. Some companies are looking
+      for submissions, some are looking for pitches, and others just want to see your
+      resume and some examples of previous work. Whatever they are asking for is what
+      you should give them. If a company is looking for full submissions and you send
+      them pitches, more than likely they won’t reply to you. Just the same if it
+      asks for a resume and you only send them some samples. Every publication has
+      a different process for finding and accepting new writers. It is your job as
+      a freelancer to make the editor’s job easy. Give them what they want and they
+      will give you what you want; paid work.   \r\n\r\n###Include Relevant Samples\r\nEditors
+      want to see work that you have done in their niche. Just because you can write
+      about hiking in the Ozarks, doesn’t mean that you can write about fitness or
+      food. You need to have relevant samples to include in your e-mails. If you don’t
+      have any relevant samples to show them, well it’s time to get writing. Pick
+      out some niches that you will specialize in and write a few good samples in
+      those areas. These will serve as your portfolio when applying for new freelance
+      writing jobs, and as long as you don’t publish them anywhere online, you can
+      even try and sell them later on.\r\n \r\n###Links are better than Attachments\r\nEditors
+      are busy. They are reading tons and tons of e-mails every day. Anything you
+      can do which makes it quicker and easier for them will be helpful in getting
+      you work. The quicker you can get your previous work in front of them, the better.
+      Save them the headache of downloading your attachments, instead include links
+      to sample work instead. If you don’t have any published work online, there are
+      multiple websites which allow you to create a writer’s portfolio with a bio
+      page and samples of your work. Just remember that you won’t be able to sell
+      those samples once you have published them in your portfolio.\r\n\r\n###Submit
+      Articles Geared Towards their Publication\r\nThis goes back to reading the whole
+      job ad and taking some time to familiarize yourself with their brand image and
+      personality. If they are a website about snowboarding in Colorado, don’t bother
+      sending them an article about skiing in Austria. It clearly doesn’t fit their
+      local brand. This is an extreme example and most websites or magazines have
+      a slightly broader topic range than that, but it’s all the same if they are
+      a travel guide and you are sending them an amusing travel anecdote. Unless they
+      publish those kinds of stories, they won’t be accepting your submission.  \r\n\r\n###Try
+      Again\r\nAs long as you have followed all of the previous steps and replied
+      to their ad with relevant information, then by all means feel free to try again.
+      Just because they didn’t accept your pitches or submissions this time, doesn’t
+      mean it won’t be a fit for them later. Sometimes editors are hyper focused on
+      an upcoming issue or a current topic trend and only accepting content geared
+      towards that. Try again in a month or two with some other pitches and samples.
+      Don’t bother trying more than two or three times though if you don’t receive
+      a response. Despite being quite busy, editors should be able to take the time
+      to write at least a quick response to any candidate that has done the work to
+      research their publication and follow all of their directions, especially if
+      they apply multiple times. If not, you probably don’t want to work with them
+      anyways as there is bound to be more communication issues down the line. \r\n
+      \r\nYou have to look at it from an editors standpoint and not from the vantage
+      of a broke, starving freelancer. If you can’t be bothered to put in the time
+      and effort to intelligently respond to the ad, why should they waste their time
+      bothering to reply?\r\n\r\nNow I understand it’s a pain in the butt. You’re
+      probably sending out ten or twenty e-mails a day trying to land work, but getting
+      hired as a freelance writer isn’t about you. It’s about what you can do for
+      them. They want to see that you can add value to their publication and bring
+      a unique angle or story. They want to know you understand their brand and what
+      they are striving to achieve. \r\n\r\nInstead of wasting your time sending out
+      ten or twenty useless e-mails a day, try sending just three or four well-written,
+      researched e-mails following these simple tips. You will be surprised how effective
+      it can be. For some good sites to find well paid writing work, check out [How
+      to Start Freelance Writing](http://www.expatsandaliens.com/articles/9)\r\n\r\n**Article
+      written by Brett Dvoretz**\r\n"
+    - '3'
+    - Learn how to get paid work as a freelance writer
+    - start freelance, freelance writing, how to start freelance writing, freelancing,
+      start writing, freelance writer
+    - '2014-08-27 15:17:40.986396'
+    - '2014-08-27 15:17:40.986396'
     - false
 
 ---
@@ -655,34 +1214,34 @@ pages:
   records: 
   - - '1'
     - Contact
-    - "<h1 id=\"contact\">Contact Us</h1>\r\n\r\n<h1 id=\"write\">Write For Us</h1>\r\n\r\n####
-      Submission Guidelines ####\r\n\r\nAll submitted articles must be your original
-      work and currently unpublished. You will get writer’s credits for your submission
-      with a small bio included at the end if you would like. We can also provide
-      a backlink to your blog. \r\nAn acceptable article length is between 500 and
-      1500 words and should include at least two and up to ten photos. If you are
-      article is really good, we may consider publishing it with a stock photo. \r\n\r\n####
-      What We are Looking For ####\r\n\r\nPlease take a moment to look at the categories
-      and stories on our website to get an idea of the types of articles we publish.
-      Generally if it is amusing or informative and happening abroad, we want to know
-      about it. Unlike many other international living websites, we aren’t biased.
-      We want to inform our readers about all aspects of living and traveling abroad.
-      Send us the good, the bad, and the ugly. We want it all.\r\n\r\nIf you are making
-      money living overseas, our readers want to hear about it. We love stories that
-      inform our readers how to make an income while living abroad; preferably more
-      original ideas than freelance writing.\r\n\r\nDo you live in a great little
-      expat community that not a lot of people know about? Tell us about your lifestyle
-      there and what you enjoy about it.\r\n\r\nWere you hassled by some dirty cops
-      and bilked out of some money? Was your motorbike stolen? What happened and how
-      did you handle it? Help other travelers avoid the same fate by telling your
-      story.\r\n\r\nThese are just some examples of things we publish. We also like
-      how-tos, destinations guides, top 10 lists, travel tips, travel mishaps, stories
-      about retiring abroad, and more.\r\n\r\nLike we said, if it’s amusing or informative
-      and it happened abroad, we want to know about it.\r\n\r\nAt this time we are
-      paying $10 per accepted submission but we plan to increase out rates as we grow.
-      This is a great opportunity for beginning travel writers and expats who are
-      trying to break into the industry. You can submit your article to info@expatsandaliens.com
-      try and respond to all e-mails within 5 business days.\r\n\r\n<h1 id=\"advertise\">Advertise</h1>\r\n\r\nWe
+    - "<h1 id=\"write\">Write For Us</h1>\r\n\r\n#### Submission Guidelines ####\r\n\r\nAll
+      submitted articles must be your original work and currently unpublished. You
+      will get writer’s credits for your submission with a small bio included at the
+      end if you would like. We can also provide a backlink to your blog. \r\nAn acceptable
+      article length is between 500 and 1500 words and should include at least two
+      and up to ten photos. If you are article is really good, we may consider publishing
+      it with a stock photo. \r\n\r\n#### What We are Looking For ####\r\n\r\nPlease
+      take a moment to look at the categories and stories on our website to get an
+      idea of the types of articles we publish. Generally if it is amusing or informative
+      and happening abroad, we want to know about it. Unlike many other international
+      living websites, we aren’t biased. We want to inform our readers about all aspects
+      of living and traveling abroad. Send us the good, the bad, and the ugly. We
+      want it all.\r\n\r\nIf you are making money living overseas, our readers want
+      to hear about it. We love stories that inform our readers how to make an income
+      while living abroad; preferably more original ideas than freelance writing.\r\n\r\nDo
+      you live in a great little expat community that not a lot of people know about?
+      Tell us about your lifestyle there and what you enjoy about it.\r\n\r\nWere
+      you hassled by some dirty cops and bilked out of some money? Was your motorbike
+      stolen? What happened and how did you handle it? Help other travelers avoid
+      the same fate by telling your story.\r\n\r\nThese are just some examples of
+      things we publish. We also like how-tos, destinations guides, top 10 lists,
+      travel tips, travel mishaps, stories about retiring abroad, and more.\r\n\r\nLike
+      we said, if it’s amusing or informative and it happened abroad, we want to know
+      about it.\r\n\r\nAt this time we are paying $10 per accepted submission but
+      we plan to increase out rates as we grow. This is a great opportunity for beginning
+      travel writers and expats who are trying to break into the industry. You can
+      submit your article to editor@expatsandaliens.com try and respond to all e-mails
+      within 5 business days.\r\n\r\n<h1 id=\"advertise\">Advertise</h1>\r\n\r\nWe
       are always looking for new advertisers. Take a look below for at the types of
       ads we offer and our rates.\r\n\r\n<h1 id=\"questions\"> Questions and Comments
       </h1>\r\n\r\nLove us or hate us, we love to hear from our readers.\r\n\r\nThink
@@ -690,8 +1249,16 @@ pages:
       us motivated since we aren’t making any money yet.\r\n\r\nHave some ideas how
       we can improve?\r\n\r\nWe are all ears.\r\n\r\nJust want to tell us we suck?\r\n\r\nWell,
       you might as well just keep that one to yourself.\r\n\r\n<h1 id=\"about\">About
-      Us</h1>\r\n"
+      Us</h1>\r\n\r\nWe are a resource guide for expats and would-be expats with a
+      little travel guide and amusement thrown in for good measure. Generally we focus
+      on living in, working in, and moving to exotic locations around the globe. We
+      pride ourselves on bringing the most relevant and useful information from people
+      living on the ground in those countries.\r\n\r\nStarted by Brett Dvoretz, a
+      long time traveler and expat who currently resides in Sihanoukvile, Cambodia.
+      Our goal is to help you achieve your goal of living abroad in an exotic destination
+      of your choice by sharing tips to help ease the transition into your new amazing
+      life.\r\n"
     - ''
     - ''
     - '2014-06-22 07:07:30.341613'
-    - '2014-06-22 07:14:54.123639'
+    - '2014-06-23 12:20:34.647781'
