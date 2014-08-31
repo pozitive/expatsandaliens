@@ -56,6 +56,20 @@ set(:executable_config_files, %w(
 ))
 
 namespace :deploy do
+  %w[start stop].each do |command|
+    desc "#{command} unicorn server"
+    task command  do
+      on roles(:app) do
+        execute "/etc/init.d/unicorn_#{application} #{command}"
+      end
+    end
+  end
+
+  task :graceful_stop do
+    on roles(:app) do
+      execute "lsof /tmp/unicorn.soyuz.sock | sed -n '2p' | awk '{print $2}' | xargs kill -QUIT"
+    end
+  end
 
   desc 'Restart application'
   task :restart do
@@ -71,7 +85,6 @@ namespace :deploy do
       sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_expatsandaliens"
       execute "mkdir -p #{current_path}/tmp/pids"
       execute "mkdir -p #{shared_path}/config"
-      execute "ln -nfs #{shared_path}/config/application.yml #{release_path}/config/application.yml"
     end
   end
   before "deploy:assets:precompile", "deploy:setup_config"
@@ -84,12 +97,11 @@ namespace :deploy do
 
   after :publishing, :restart
 
+
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
-      # within release_path do
-      #   execute :rake, 'cache:clear'
-      # end
+      execute "lsof /tmp/unicorn.soyuz.sock | sed -n '2p' | awk '{print $2}' | xargs kill -QUIT"
+      execute "/etc/init.d/unicorn_#{application} start"
     end
   end
 
