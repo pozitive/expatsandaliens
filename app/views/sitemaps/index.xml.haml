@@ -1,0 +1,15 @@
+- base_url = "http://#{request.host_with_port}"
+!!! XML
+%urlset{:xmlns => "http://www.sitemaps.org/schemas/sitemap/0.9"}
+  -# default locale
+  - @articles.each do |article|
+    %url
+      %loc #{base_url}/articles/#{article.to_param}
+      %lastmod=article.updated_at.strftime("%Y-%m-%d")
+      %changefreq monthly
+      %priority 0.8
+  - @pages.each do |page| 
+    %url
+      %loc #{base_url}/pages/#{page.to_param}
+      %changefreq monthly
+      %priority 0.9

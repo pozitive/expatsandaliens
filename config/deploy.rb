@@ -60,7 +60,7 @@ namespace :deploy do
     desc "#{command} unicorn server"
     task command  do
       on roles(:app) do
-        execute "/etc/init.d/unicorn_#{application} #{command}"
+        execute "/etc/init.d/unicorn_expatsandaliens #{command}"
       end
     end
   end
@@ -68,14 +68,6 @@ namespace :deploy do
   task :graceful_stop do
     on roles(:app) do
       execute "lsof /tmp/unicorn.expatsandaliens.sock | sed -n '2p' | awk '{print $2}' | xargs kill -QUIT"
-    end
-  end
-
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join('tmp/restart.txt')
     end
   end
 
