@@ -28,13 +28,17 @@ gem 'devise'
 # gem 'sidekiq'
 
 # gem 'debugger', group: [:development, :test] # Use debugger
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+  gem 'spring'
+  gem 'capistrano-rails'
+end
+
+group :development, :test do
+  gem 'rails_12factor'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+end
+
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
-gem 'capistrano-rails', group: :development # Use Capistrano for deployment
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-gem 'rails_12factor', group: :production
-gem 'capistrano-rbenv', group: :production
-gem 'capistrano-bundler', group: :production
