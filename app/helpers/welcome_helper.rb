@@ -1,15 +1,15 @@
 module WelcomeHelper
   def promo_text(title)
-    matchData = title.match(/(^\w+\W+\w+\W+)(\w+\W+\w+\W+)(\w+\W+\w+\W+)/) || 
-      title.match(/(^\w+\W+\w+\W+)(\w+\W+\w+\W+)/) || title.match(/(^\w+\W+)/)
-
-    span = content_tag(:span, class: 'hero-color') do
-      matchData[1]
+    title = title.split(/\W+/).map(&:upcase)
+    context = content_tag(:span, class: 'hero-color') do
+      title.shift(2).join(" ") +  " "
     end
-    second = tag(:br) + matchData[2]
-    third = tag(:br) + matchData[3]
+    title.each_slice(3).each do |text|
+      text = text.join(" ")
+      context += tag(:br) + text
+    end
     content_tag(:h1) do
-      span + second + third
+      context
     end
   end
 end
