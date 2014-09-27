@@ -1353,6 +1353,14 @@ textarea {
     margin-top: 100px;
     border: 1px solid #DDDDDD;
     padding-top: 20px;
+    background: #181E50;
+    a {
+	color: white;
+    }
+    a:hover {
+	text-decoration: underline;
+    }
+
 }
 
 /* Older articles */
