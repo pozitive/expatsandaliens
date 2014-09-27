@@ -6,17 +6,19 @@
           %li=  nav_link category.name, category_path(category)
     .columns.small-4
       %ul.no-bullet
-        %li= link_to "Facebook"
         %li
-          %a Linkedin
+          %a{href: "https://twitter.com/ExpatsandAliens"} Twitter
         %li
-          %a Twitter
+          %a{href: "https://plus.google.com/108646788016475318172", rel:"publisher"} Google+
         %li
-          %a Google+
+          %a{href: "https://www.facebook.com/expatsandaliens?ref_type=bookmark"} Facebook
         %li
-          %a Pinterest
+          %a{href: "http://www.linkedin.com/company/expats-and-aliens?trk=biz-companies-cyf"} Linkedin
         %li
-          %a Subscribe
+          %a{href: "http://www.pinterest.com/ExpatsandAliens/"} Pinterest
+        %li
+          %a{href: "https://plus.google.com/107674076399396428184", rel: "publisher"} Google+
+
     .columns.small-4
       %ul.no-bullet
         %li= link_to "Contact Us", page_path(Page.find_by_name("Contact"), anchor: "contact")
@@ -24,4 +26,5 @@
         %li= link_to "Advertising", page_path(Page.find_by_name("Contact"), anchor: "advertise")
         %li= link_to "Questions and Comments", page_path(Page.find_by_name("Contact"), anchor: "questions")
         %li= link_to "About Us", page_path(Page.find_by_name("Contact"), anchor: "about")
-
+  .row
+    .columns.small-12
