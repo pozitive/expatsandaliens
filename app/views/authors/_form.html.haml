@@ -9,9 +9,14 @@
   .field
     = f.label :name
     = f.text_field :name
-  .field
-    = f.label :avatar
-    = f.text_field :avatar
+  .row
+    .columns.small-4.large-4
+      = f.label "Upload avatar"
+      = f.file_field :avatar, class: "button tiny"
+    .columns.small-8.large-8
+      = f.label :remote_avatar_url, "or avatar URL" 
+      = f.text_field :remote_avatar_url, placeholder: @author.avatar_url.to_s
+      %small= @author.avatar_url.to_s
   .field
     = f.label :email
     = f.text_field :email

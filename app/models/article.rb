@@ -1,6 +1,7 @@
 class Article < ActiveRecord::Base
   validates_length_of :summary, :keyword, :name, :maximum => 250
   belongs_to :category
+  belongs_to :author
   extend FriendlyId
   friendly_id :name, use: :slugged
   mount_uploader :image, ImageUploader

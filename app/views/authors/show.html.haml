@@ -1,21 +1,15 @@
 %p#notice= notice
 
-%p
-  %b Name:
-  = @author.name
-%p
-  %b Avatar:
-  = @author.avatar
-%p
-  %b Email:
-  = @author.email
-%p
-  %b Website:
-  = @author.website
-%p
-  %b Bio:
-  = @author.bio
+= image_tag @author.avatar.large if @author.avatar.present?
+%h3= @author.name
 
-= link_to 'Edit', edit_author_path(@author)
-\|
-= link_to 'Back', authors_path
+= @author.website
+%h4 BIO
+%hr
+= @author.bio
+
+%hr
+- if admin_signed_in?
+  = link_to 'Edit', edit_author_path(@author)
+  \|
+  = link_to 'Back', authors_path
