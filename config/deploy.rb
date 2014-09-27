@@ -87,9 +87,6 @@ namespace :deploy do
     end
   end
 
-  after :publishing, :restart
-
-
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       execute "lsof /tmp/unicorn.expatsandaliens.sock | sed -n '2p' | awk '{print $2}' | xargs kill -QUIT"
