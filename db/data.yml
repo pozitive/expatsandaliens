@@ -19,69 +19,29 @@ admins:
   - - '1'
     - china@pozitive.biz
     - "$2a$10$0N7IkJ.1v9icVVgOCW56f.h1UL581xMaZjcwpIOQsyNfVMVscki4G"
-    - '5'
+    - '6'
+    - '2014-09-06 07:59:23.126952'
     - '2014-08-06 17:22:33.578896'
-    - '2014-07-14 20:14:39.248023'
     - 5.228.165.124
     - 5.228.165.124
     - '0'
     - 
     - 
     - '2014-05-31 14:43:01.718567'
-    - '2014-08-06 17:22:33.671835'
+    - '2014-09-06 07:59:23.128172'
   - - '2'
     - brettdvoretz@gmail.com
     - "$2a$10$Q2isH86pxCYO/To6Vqma1uNjsqoxWiQszmTCadpUjH07zZbwBnaB2"
-    - '31'
-    - '2014-08-27 15:00:30.471927'
-    - '2014-08-26 03:32:21.873932'
-    - 203.144.92.86
-    - 202.8.75.186
+    - '45'
+    - '2014-09-17 06:34:11.032704'
+    - '2014-09-15 04:11:11.930537'
+    - 49.156.41.251
+    - 124.248.184.172
     - '0'
     - 
     - 
     - '2014-06-22 10:03:16.151445'
-    - '2014-08-27 15:00:30.472652'
-
----
-categories:
-  columns:
-  - id
-  - name
-  - description
-  - created_at
-  - updated_at
-  records: 
-  - - '1'
-    - Destinations
-    - ''
-    - '2014-05-23 14:38:53.490929'
-    - '2014-05-31 14:09:23.105353'
-  - - '2'
-    - Travel Tips
-    - ''
-    - '2014-05-23 14:53:19.352119'
-    - '2014-05-31 14:09:33.451875'
-  - - '3'
-    - Making Money
-    - ''
-    - '2014-05-23 15:07:42.077199'
-    - '2014-05-31 14:09:42.34249'
-  - - '4'
-    - Retiring
-    - ''
-    - '2014-05-23 15:07:54.326602'
-    - '2014-05-31 14:09:59.300576'
-  - - '5'
-    - Moving
-    - ''
-    - '2014-05-23 15:08:05.481068'
-    - '2014-05-31 14:10:10.399777'
-  - - '6'
-    - Staying Healthy
-    - ''
-    - '2014-05-31 14:10:25.998436'
-    - '2014-05-31 14:10:25.998436'
+    - '2014-09-17 06:34:11.126052'
 
 ---
 articles:
@@ -96,6 +56,7 @@ articles:
   - created_at
   - updated_at
   - promo
+  - slug
   records: 
   - - '1'
     - 5 Ways to Fund your Life Abroad
@@ -174,8 +135,9 @@ articles:
     - make money overseas, working overseas, earning a living overseas, freelance
       writing, income abroad
     - '2014-05-23 15:11:51.387294'
-    - '2014-08-25 09:01:55.562744'
+    - '2014-09-06 16:58:52.926477'
     - false
+    - 5-ways-to-fund-your-life-abroad
   - - '2'
     - Avoid Quarantine When Moving to Japan with Your Dog
     - HardheadMonster_shutterstock_180121373.jpg
@@ -185,10 +147,10 @@ articles:
       be expats change their mind about moving. \r\n\r\nI’m here to tell you a little
       secret. \r\n\r\nYou can avoid it.\r\n\r\nYou see, Japan allows you to do a home
       quarantine in your country before you leave and then bypass the long quarantine
-      period after landing in Japan. You'll be able to have your dog safely in your
-      hands within 12 hours of landing.\r\n\r\nNow a home quarantine is not exactly
-      what you think and it’s actually a lot easier than it sounds. \r\n\r\nHere are
-      the requirements for bringing your dog into Japan and avoiding a long quarantine
+      period after flying with a dog to Japan. You'll be able to have your dog safely
+      in your hands within 12 hours of landing.\r\n\r\nNow a home quarantine is not
+      exactly what you think and it’s actually a lot easier than it sounds. \r\n\r\nHere
+      are the requirements for flying your dog into Japan and avoiding a long quarantine
       period. You need to start this process seven-and-a-half months or more before
       travel.\r\n\r\n1. Your dog must be micro chipped with an ISO compliant (11784
       and 11785) microchip.\r\n\r\n2. You must give your dog a rabies vaccine. Yes,
@@ -218,11 +180,12 @@ articles:
     - '5'
     - Tips and tricks to avoid lengthy quarantines for your pet when traveling to
       rabies free countries.
-    - pet quarantine, avoid pet quarantine, international travel with dogs, japan
-      pet quarantine, pet travel, dog on plane
+    - international pet travel requirements, flying with a dog, dog friendly airlines,
+      pet flights, pet quarantine japan
     - '2014-05-23 15:19:16.755186'
-    - '2014-08-25 09:03:17.471291'
+    - '2014-09-06 16:58:12.029448'
     - false
+    - avoid-quarantine-when-moving-to-japan-with-your-dog
   - - '3'
     - How to Get Over Jet Lag Quicker
     - jet_lag.jpg
@@ -273,8 +236,9 @@ articles:
     - get over jet lag, avoid jet lag, prevent jet lag, tips for preventing jet lag,
       jet lag
     - '2014-05-31 15:01:03.452484'
-    - '2014-08-25 08:59:50.300911'
+    - '2014-09-06 16:47:19.469991'
     - false
+    - how-to-get-over-jet-lag-quicker
   - - '4'
     - How to Make Your Dog Comfortable When Traveling Overseas
     - Fly_dragonfly_shutterstock_160834409.jpg
@@ -338,8 +302,9 @@ articles:
     - pet relocation, traveling with pets, traveling with dogs, flying with dogs,
       moving with pets, dog on plane
     - '2014-05-31 15:08:45.163774'
-    - '2014-08-26 03:35:29.313872'
+    - '2014-09-06 17:00:23.029945'
     - false
+    - how-to-make-your-dog-comfortable-when-traveling-overseas
   - - '5'
     - 'Save Money on Flights: Be Flexible '
     - ollyy_shutterstock_158229143.jpg
@@ -429,8 +394,9 @@ articles:
     - save money on airfare, find cheap airline tickets, cheap airfare, save money
       on flights, get cheap flights
     - '2014-05-31 15:11:14.858918'
-    - '2014-08-25 09:03:43.892608'
+    - '2014-09-06 16:59:45.825892'
     - false
+    - save-money-on-flights-be-flexible
   - - '6'
     - Tips for Starting your New Life in Cambodia
     - GuoZhongHua_shutterstock_114723055.jpg
@@ -517,11 +483,12 @@ articles:
     - '1'
     - Learn how you to can start your new life in Cambodia with some great tips on
       getting a long-term visa, opening a bank account, and renting an apartment
-    - cambodia visa, move to cambodia, cambodia business visa, renting in cambodia,
-      moving to cambodia
+    - cambodia visa, moving to cambodia, cambodia business visa, living in cambodia,
+      moving to cambodia, cost of living in Cambodia
     - '2014-05-31 15:14:22.520265'
-    - '2014-08-25 13:45:04.472401'
-    - true
+    - '2014-09-17 07:34:40.626533'
+    - false
+    - tips-for-starting-your-new-life-in-cambodia
   - - '7'
     - 'How to Travel Internationally with your Dog '
     - Vitaly_Titov___Maria_Sidelnikova__shutterstock_66459049.jpg
@@ -593,8 +560,9 @@ articles:
     - pet movers, flying with dog, dog overseas, move with pet, bring dog, dog on
       airplane
     - '2014-05-31 15:16:51.736306'
-    - '2014-08-26 03:34:14.197333'
-    - true
+    - '2014-09-06 17:05:38.272987'
+    - false
+    - how-to-travel-internationally-with-your-dog
   - - '8'
     - '20 Reasons Mother Nature is Telling you to get a Passport: Part 1 (1-10)'
     - serengeti-1920.jpg
@@ -675,8 +643,9 @@ articles:
     - natural wonders, amazing places, travel inspiration, most beautiful places,
       amazing travel destinations
     - '2014-05-31 15:20:21.181128'
-    - '2014-08-25 08:59:27.472748'
+    - '2014-09-06 17:01:11.329429'
     - false
+    - 20-reasons-mother-nature-is-telling-you-to-get-a-passport-part-1-1-10
   - - '9'
     - How To Start Freelance Writing
     - Freelance-writing-1920.jpg
@@ -777,8 +746,9 @@ articles:
     - start freelance, freelance writing, how to start freelance writing, freelancing,
       start writing
     - '2014-06-23 11:58:39.748424'
-    - '2014-08-25 09:04:02.702042'
+    - '2014-09-06 17:00:43.926588'
     - true
+    - how-to-start-freelance-writing
   - - '11'
     - 'Thailand: Where Have All The Expats Gone?'
     - 2_20Popartic_20shutterstock_162063647.jpg
@@ -806,7 +776,7 @@ articles:
       runs in Thailand has come to an end. \r\n\r\nThere are a few options available
       for long-term visas but they are generally reserved for retired or semi-retired
       people over the age of 50 with proof of funds, foreigners married to locals,
-      students, and foreigners hired to work for Thai companies. This (http://www.hg.org/article.asp?id=20927)
+      students, and foreigners hired to work for Thai companies. [This](http://www.hg.org/article.asp?id=20927)
       is a useful resource to learn all the details about long-term Thai visa options.
       \r\n\r\n###Limited Income Potential \r\nAnother big issue for many expats living
       in Thailand is the limited earning potential they face and the inability to
@@ -850,8 +820,9 @@ articles:
       countries have laxer visa regulations or better business and investment opportunities. '
     - Thailand, expats, thai expat, living in thailand, thailand visa, movin to thailand
     - '2014-08-17 04:21:36.486709'
-    - '2014-08-25 09:01:26.571082'
+    - '2014-09-06 17:04:34.248114'
     - false
+    - thailand-where-have-all-the-expats-gone
   - - '12'
     - Avoid the Expat Gut
     - 2_20kurhan_20shutterstock_125673773.jpg
@@ -937,8 +908,9 @@ articles:
     - staying fit, expat, international living, moving abroad, expat lifestyle, healthy
       expat
     - '2014-08-19 05:24:33.371613'
-    - '2014-08-25 09:02:25.449793'
+    - '2014-09-06 17:03:41.926935'
     - false
+    - avoid-the-expat-gut
   - - '13'
     - Lost in Translation
     - Funny_20Solution_20Studio_20shutterstock_150794741.jpg
@@ -1010,8 +982,9 @@ articles:
     - expat, expat life, becoming an expat, moving to thailand, moving to cambodia,
       moving to the philippines
     - '2014-08-23 06:32:31.784788'
-    - '2014-08-25 09:04:18.680419'
+    - '2014-09-06 17:02:00.926857'
     - true
+    - lost-in-translation
   - - '14'
     - 'Medical Care in Cambodia: The Good, The Bad, and The Ugly'
     - Adisorn_20Saovadee_20shutterstock_170613215.jpg
@@ -1109,8 +1082,9 @@ articles:
     - medical care cambodia, doctor cambodia, hospital cambodia, hospital sihanoukville,
       good hospital phnom penh, good hospital sihanoukville
     - '2014-08-25 12:25:19.18416'
-    - '2014-08-26 03:33:24.970565'
+    - '2014-09-06 17:04:07.747919'
     - false
+    - medical-care-in-cambodia-the-good-the-bad-and-the-ugly
   - - '15'
     - 'Getting Hired as a Freelance Writer: It’s Not as Difficult as You Think'
     - ollyy_20shutterstock_131284517.jpg
@@ -1198,8 +1172,453 @@ articles:
     - start freelance, freelance writing, how to start freelance writing, freelancing,
       start writing, freelance writer
     - '2014-08-27 15:17:40.986396'
-    - '2014-08-27 15:17:40.986396'
+    - '2014-09-06 17:02:45.733541'
     - false
+    - getting-hired-as-a-freelance-writer-it-s-not-as-difficult-as-you-think
+  - - '16'
+    - 'The Phillipines: Long Term Visas'
+    - Pichugin_20Dmitry_20shutterstock_124512115.jpg
+    - "With its low cost of living, beautiful beaches, and friendly people, The Philippines
+      has long been a popular expat destination. Unspoiled islands like Boracay and
+      Palawan draw beach loving expats with their pristine, white sandy beaches and
+      crystal clear emerald water. Others prefer slightly more developed cities like
+      Cebu or Davao with large American style malls and access to all the foods or
+      amenities they would find in their home countries. And some are drawn to mountainous
+      areas such as Bagiuo with cooler weather and stunning vistas.\r\n\r\nWhatever
+      your preference, there is a good chance The Phillipines has a place just for
+      you; the perfect place that you would be happy to call home. \r\n\r\nUp until
+      recently, one of the main drawbacks of living in The Philippines was its strict
+      and tiresome visa regulations. There are two main options for people choosing
+      to live in The Philippines for an extended period of time, only one of which
+      is a permanent solution.\r\n\r\n##The New Long Stay Visitor Visa \r\nCurrently
+      the most popular among foreigners because of the ease in obtainment is the newly
+      created Long Stay Visitor Visa. There are no financial requirements to prove
+      and it is not much more complicated than obtaining a regular tourist visa. Until
+      2013, visitors to The Philippines could only get a 59 day visa and they had
+      to renew it every 2 months for a maximum time frame of 16 months. At which point,
+      they had to leave the country to start the process all over again. This meant
+      they had to reapply for a visa extension every two months and waste time at
+      immigration offices dealing with needless bureaucracy, but no more. \r\n\r\nThe
+      Long Stay Visitor Visa still has a maximum length of 16 months, unless special
+      permission is obtained, but no longer do expats need to reapply every 2 months.
+      Now expats living in The Philippines may extend their visas for up to 6 months
+      at a time in a single transaction. At the end of the 16 month period, you will
+      still be required to leave the country for a border run, or border flight I
+      should say. The 6 month visa fee is 13,900 PHP (roughly $320.)\r\n\r\n##The
+      Permanent Visa\r\nIf you don’t have any medical conditions or plans of marrying
+      a Filipina woman, your only permanent option is to apply for a permanent visa
+      / retirement visa using proof of funds or income. There are a few ways you can
+      do this. \r\n\r\n1.\tIf you are over the age of 35, you can deposit $20,000
+      in a Filipino bank account. The caveat is this money will be held until you
+      leave the country and you cannot use it for any form investment or living expenses.
+      \r\n\r\n2.\tIf you are between the ages of 35 and 49, you can deposit $50,000
+      into a Filipino bank account, which can then be converted in an investment of
+      $50,000 or higher in the country. Many expats choose to invest in a business
+      which can solve the problem of any income issues and visa requirements at the
+      same time. Others just prefer to purchase a home, which also qualifies as an
+      investment. \r\n\r\n3.\tIf you are 50 years old or above, you only need deposit
+      $20,000 or, if you have a monthly pension of at least $800, a $10,000 deposit
+      will suffice. This money can be used for living expenses or investments as well.
+      \ \r\n\r\nAll of the permanent and retirement visas include multiple entries
+      and work permission. They are also supposed to include up to one container of
+      goods duty free for your household, but due to the corruption it doesn’t always
+      work out this way. I know of one long-term expat residing in the Philippines
+      who actually received his permanent visa and tried to import his allotted container
+      duty-free, but was still charged by the customs officials despite paperwork
+      showing evidence that he was allowed one contained duty-free. \r\n\r\n##Constantly
+      Changing Visa Regulations \r\n\r\nThe main problem with getting black and white
+      facts about obtaining long-term or permanent visas in the Philippines is that
+      they are constantly changing the rules and requirements. Even the embassy seems
+      to be a bit confused about what the exact regulations are. Because of this,
+      many expats have taken different paths to long term stays in the Philippines
+      and what worked for on expat might not work for you. Your best option is to
+      contact the Philippines Embassy and verify what documents or financials they
+      will require. Try and get information from them in writing so as to avoid some
+      of the hassles you might otherwise encounter when applying for your long-term
+      visa. The bureaucratic situation in the Philippines is relatively corrupt and
+      you will be confronted with unexpected fees at every turn. Be prepared for a
+      long and arduous road to obtaining your permanent Philippines visa, but if you
+      stick with it, do your due diligence, and stand your ground, you can do it.
+      \r\n\r\n  \r\n**Article written by Brett Dvoretz**\r\n"
+    - '1'
+    - Learn about the long-term visa options in the Philippines
+    - philippines visa, philippines long term visa, permenant visa philippines, expats
+      in philippines living in philippines
+    - '2014-09-01 16:43:52.586885'
+    - '2014-09-06 17:05:04.427506'
+    - false
+    - the-phillipines-long-term-visas
+  - - '17'
+    - 'Overcoming my Hanoi Horrors: Moving to Vietnam and Learning to Cross the Street'
+    - SofitelIntersection.JPG
+    - "I’ve lived many places, including New York City, Addis Ababa, Manzini (Swaziland)
+      and Toronto. So I’m no chump when it comes to handling the changes an aggressive
+      urban environment can toss my way. But moving to Hanoi, my home for the past
+      two months, really threw me for a loop. It wasn’t the hot, sticky weather or
+      language-learning curve that got to me. Waking up in the middle of the night
+      in a cold sweat, the nightmare that plagued me continually was…. how do I get
+      across the street?\r\n\r\nMy first week living in Hanoi I barely left my apartment,
+      other than to jump in a cab. The Niagara Falls like torrent of traffic was terrifying.
+      In this city of 9.3 million, almost everyone owns a motorbike. There are also
+      millions of buses, cars, trucks and other vehicles crowding the streets. No
+      big deal, just go to the cross walk or the traffic lights, right? \r\n\r\nWrong.
+      \r\n\r\nIn my section of town neither exist. What Hanoi does have are five-way
+      intersections where motorbikes blithely go the wrong way and drivers perpetually
+      stomp pedal to the metal. Cabs are relatively expensive on an NGO worker’s budget,
+      so I had no choice but to start taking the bus. Unfortunately, the stop was
+      across the street. As a new expat in Vietnam, crossing the street seemed like
+      an impossible task. \r\n\r\n![ ALT Expat living in Hanoi](https://s3.amazonaws.com/ExpatsandAliens/Destinations/Overcoming%20my%20Hanoi%20Horrors/WomanCrossing.JPG)\r\n\r\nAt
+      first a colleague kindly offered to shepherd me to the bus stop. I clung to
+      her like glue and closed my eyes as hundreds of cars and motorbikes zipped past,
+      missing me by a hair. Then one day she didn’t show up. I was stuck. I had to
+      do it on my own. I took a deep breath and said a little prayer. \r\n\r\nHeart
+      beating frantically, I stepped out into the relentless flow of traffic. And
+      immediately froze, causing a phalanx of motorbikes to nearly collide before
+      speeding off angrily. I quickly stepped back to the curb and stood there wondering
+      what to do. Finally, an elderly Vietnamese man plunged recklessly into the traffic
+      on foot and I shadowed him. Trying to look only at my feet since my deer-in-head-lights
+      reaction would most certainly cause a 50-car/bike pileup this time. Once the
+      old man had reached the other curb, I finally raised my eyes again. By some
+      miracle, I had made it safely to the other side. \r\n\r\nFrom then on, each
+      day before work, I would stand around waiting for ladies on bicycles, tottering
+      grandmothers, grandfathers or even little kids to attach myself to. Eventually
+      I got brave enough to do it on my own. My strategy was to avoid lumbering buses
+      that have trouble stopping. I waited until all the cars had passed. When it
+      was only motorbikes, I took a small step off the curb. Let them see me, then
+      another small step, giving them time to swerve slightly to the right or left.
+      The key was to keep a steady pace. Never slow down and never speed up. Slow
+      and steady wins the race. Something very important for me was avoiding eye contact
+      after that first look. DO NOT FREEZE. I kept telling myself, ‘They do not want
+      to hit me.’\r\n\r\nTwo months in now, I can easily cross the street. I know
+      now that honking horns do not mean someone is angry at me, just that they are
+      behind me and don’t want to collide. I’ve learned from the grannies to wave
+      my arm at the drivers to tell them I’m coming through.\r\n\r\nConfident now,
+      and easily able to get to that bus stop, I’m still not complacent. I say a little
+      prayer every time I get there safely. If you had asked me before I left Canada,
+      what would your biggest learning curve be moving to Vietnam? I never would have
+      guessed it would have been crossing the street.\r\n\r\n**Article written by
+      Maureen Littlejohn**\r\n*An adventurous soul and seasoned journalist, Maureen
+      has been writing about international development, gender issues, health, travel
+      and lifestyle for more years than she cares to disclose. Currently she lives
+      in Hanoi where she is communication/marketing advisor to Bac Thang Long College
+      – a local partner of World University Services of Canada. Prior to Vietnam she
+      lived in Swaziland for a year working with the Swaziland Action Group Against
+      Abuse. When not traveling or living abroad, her home base in Toronto, Canada.
+      Check out her [blog](maureenlittlejohn.com)*\r\n"
+    - '1'
+    - 'As a new expat in Hanoi, Maureen''s greatest challenge was learning to cross
+      the street. Avoiding the thousands of motorbikes zipping proved to be death
+      defying experience. '
+    - expat in hanoi, moving to hanoi, living in hanoi, vietnam expat, moving to vietnam
+    - '2014-09-07 04:27:37.151678'
+    - '2014-09-07 04:31:56.026991'
+    - false
+    - overcoming-my-hanoi-horrors-learning-to-cross-the-street-after-moving-to-vietnam
+  - - '18'
+    - 'Becoming an Expat: 8 Things I''ve Learned Living Abroad'
+    - Wiktoria_20Pawlak_20shutterstock_148264952.jpg
+    - "The life of an expat is a strange thing. You’re surrounded by people you don’t
+      understand and who don’t understand you. It can easily become exasperating when
+      trying to accomplish simple day-to-day activities.  The problem is, getting
+      angry or frustrated during just about any situation in a foreign land is never
+      a good idea and only tends to make things worse.\r\n\r\nLiving as an expat I
+      have learned numerous things about myself, other people, my native country,
+      and my new homeland. Most of these are really life lessons and they will serve
+      me well whether I continue on as an expat or move back to the U.S.A.\r\n\r\nSo
+      what are some of the things being an expat has taught me? Take a look. \r\n\r\n##They
+      Don’t Understand Why Your are Angry and They Never Will\r\nThere is no point
+      getting all bent out of shape and hollering or yelling about things. You have
+      to understand that things work differently in your new land. Just because 3:00pm
+      meant 3:00pm back in America, that doesn’t mean it works that way here. Appointments
+      and meeting times are mere suggestions. They don’t understand why you are angry
+      because they blocked your motorcycle in when they parked their car, besides
+      you’re supposed to know they probably left it in neutral so you could just roll
+      it out of the way. Rather than getting enraged about little things and acting
+      like a fool, learn to adapt to a new set of rules. You can’t change the country,
+      either learn to like it and love it or get the hell outta there.\r\n\r\n##A
+      Smile is Amazing\r\n![ALT Smile](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/P1060022.JPG)\r\nWhen
+      living abroad, communication often becomes an issue. Most of us don’t have the
+      luxury of speaking the local language and even with some pretty valiant attempts
+      to learn, there will often be communication break downs. When this happens,
+      the best thing you can do is smile. Smiling is a universal language. A smile
+      can help you resolve a problem peacefully or get you a discounted price. A smile
+      can even get you invited into a home for a meal or to a local wedding. When
+      communication has broken down and frustrations are mounting, always remember
+      something as a simple as a smile can save the day.  \r\n\r\n##Life Can be Easier
+      or Life Can be More Difficult. It’s Up To You\r\n![ALT Adapt-to-life-as-an-expat](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/Cartoonresource%20shutterstock_128236091.jpg)\r\nYou
+      can expect life in a foreign country to be wildly different from what you are
+      used to in your native homeland. Whether this is good or bad is really up to
+      you. Life as an expat is all about how you take it.  I have two neighbors who
+      are both roughly the same age and living quite similar lifestyles. They both
+      have local wives, ride motorbikes, and are retired. One sits home all day drinking
+      beer and complaining about the Khmer people, what they are doing wrong, how
+      terrible the food is, and why the country is a dump. The other goes to the gym
+      regularly, speaks some Khmer (the local language), eats the food, and generally
+      loves his life and his time here. Both retired sixty something year olds, living
+      as expats. The difference, one has adapted to his new homeland and the other
+      wants his new country to adapt to him. \r\n\r\n##I’m Very Lucky and If You’re
+      Reading This You Probably are Too\r\n![ALT Cambodia](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/P1060379.JPG)\r\nThere
+      is nothing than can illustrate just how lucky you truly are like traveling and
+      living in developing countries. You realize all those little things you used
+      to consider problems back home and spend all your time stressing out over, pale
+      in comparison to what these people have to deal with on a day-to-day basis.
+      It’s hard to get upset because you can’t afford the latest iPhone or your internet
+      is down for a day when people just across the street are showering in a bucket
+      and trying to scrounge together enough money to eat today.\r\n\r\n##The World
+      is More Beautiful than You Think\r\n![ALT Bokor-Kampot](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/P1050007.JPG)
+      \r\nMy oh my, what a wonderful world. This planet is full of breathtaking and
+      just downright amazing this that you will never get to see if you spend your
+      whole life living in a bubble. You need to get out and see the world. Go places
+      and do things. You only have one life, don’t waste it. \r\n\r\n##Time Passes
+      Very Quickly\r\n![ALT Expat](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/ulegundo%20shutterstock_136700315.jpg)\r\nLiving
+      as an expat it sometimes feels like I am in a time warp. Not a lot changes for
+      me here, but back home I see my friends getting married and having kids, advancing
+      in their careers, and buying new homes. We slowly drift apart and have less
+      and less in common. Sometimes, it’s hard not to reevaluate my decision to become
+      an expat and wonder where I would be if I stayed in America continuing on the
+      corporate path. Who would I be now and how would my life be different? More
+      importantly, would I be happier? Gauging from the stressed out appearances of
+      my slowly balding friends with their ever increasing waistbands and silly complaints
+      on Facebook, I don’t think so. \r\n\r\n##America is the Land of Variety\r\n![ALT
+      shopping in Cambodia](https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/variety.jpg)\r\nYou
+      don’t really appreciate how much variety America has to offer until you leave.
+      I remember the days of going to the mall or Wal-Mart where anything you could
+      possibly want is there to be purchased. Living here in Cambodia, there are just
+      some things no amount of money can buy. If you are really dedicated to particular
+      brands or items and you can’t imagine your life without them, I highly recommend
+      you bring along a large supply when you move. Don’t expect your new homeland
+      to have even half of the variety we are offered on a daily basis in America.
+      \ \r\n\r\n#Developing Countries are Literally Developing\r\n![Sihanoukville-Cambodia](
+      https://s3.amazonaws.com/ExpatsandAliens/travel%20tips/8%20Things%20Being%20an%20Expat%20has%20Taught%20Me/P1060376.JPG)\r\nAnd
+      they start every morning at 7am. Sometimes you may think it’s just on your street,
+      or it’s because they are currently working on a building behind you, but no.
+      It’s the whole damn country. And once they finish with that building behind
+      you, they will start banging on the building in front of you at 7am. I guess
+      the clue was in the name. I should have taken the words developing country more
+      literally, but just every once in a while it would be nice to have a peaceful
+      meal without the sounds of construction echoing in the background.   \r\n\r\nIn
+      truth, the list goes on and on. Living life as an expat is one big learning
+      experience after another. Just when you begin to think you have a grasp on what’s
+      happening around you, it seems like everything changes and you find yourself
+      right back at the beginning. There are times when it feels like a maddening
+      experience, but in the end, the rewards far outweigh any frustrations or hassles.
+      \r\n\r\n**Article written by Brett Dvoretz**\r\n"
+    - '1'
+    - Living abroad I've learned many things. This is what becoming an expat has taught
+      me.
+    - expat living, living abroad, best country for expats, expat forum, becoming
+      an expat
+    - '2014-09-11 07:55:01.326765'
+    - '2014-09-13 14:19:47.826327'
+    - false
+    - becoming-an-expat-8-things-i-ve-learned-along-the-way
+  - - '19'
+    - 'Moving Abroad: Finally Making the Leap'
+    - Airport_.jpg
+    - "Life. It is all about challenges.\r\n\r\nSome challenges are fleeting while
+      others stay with you for the rest of your life.\r\n\r\nFor me,moving overseas
+      was the most challenging decision I have ever made. I hadn't ever planned on
+      it, but when I met David one of the first things he mentioned was his goal to
+      set up a chiropractic business in the Netherlands. I thought it was just talk,
+      but as our relationship got more serious, I learned that he truly meant it.
+      And the best part, he asked me to go with him! How often do you meet someone
+      who offers you a chance for a real adventure? It was too good of an opportunity
+      to refuse!\r\n\r\nDavid’s main reason for choosing the Netherlands had to do
+      with his sister, Robyn. The two of them have always been close. She has had
+      an interesting and exciting life so far. At seventeen years old, she left her
+      home in Colorado, boarded a plane to Paris, and began a journey of self-discovery.
+      Along the way she met several interesting people and traveled to many different
+      countries in and around Europe. Eventually she settled in Amsterdam where she
+      met her future husband Julian, a Polish native who came to live in the Netherlands
+      at a very young age with his family. Robyn worked odd jobs while studying to
+      become certified in massage therapy. She is the one who first piqued David's
+      interest in moving to Amsterdam and starting a family chiropractic business.
+      \ \r\n\r\nThere were mixed feelings of excitement, surprise, and sadness among
+      our family and friends. Some of them did not believe we would actually go through
+      with it until we bought our tickets. It was at that moment that the realization
+      of our decision really hit us.  \r\n\r\n##Preparing to Move\r\n\r\n•\tAh visas!
+      Immigration is a complex and overwhelming process. Be sure to research the various
+      methods and requirements to successfully immigrate abroad. Try to make as many
+      arrangements as possible before you move. Robyn and Julian played a crucial
+      role in calling the immigration organization and explaining our individual situations.
+      They found out which application forms and personal documents were needed, and
+      even scheduled an appointment soon after arriving. Be sure to bring copies of
+      personal documents such as your passport, birth certificate, education degrees,
+      and transcripts. \r\n\r\n•\tIf you have a job set up before you go, wonderful!
+      Immigration will be easy, and your employer will most likely take care of all
+      of the permits. If not, budget accordingly, and be sure to bring some currency
+      for living expenses as the job hunt will most likely take longer than expected.
+      \r\n\r\n•\tIf you are planning to move to a foreign country, where you do not
+      speak the native language, it is a good idea to learn some basic words and phrases
+      that are used in daily conversation. I spent just over a year practicing audio
+      lessons during my daily commute. The majority of Dutch people in large cities
+      speak English very well, but not everyone. Be prepared for these instances to
+      arise now and then. It is part of the experience!  \r\n\r\n•\tShipping our belongings
+      abroad was another issue. Surprisingly, the cheapest way to transport everything
+      was through the airline. It was expensive and cost a few hundred dollars for
+      the twelve boxes and suitcases we had between the two of us, but less than traditional
+      shipping methods. Using the airlines saved us from having to pay over a thousand
+      dollars to have it shipped overseas via cargo.  \r\n\r\n•\tHow do you go about
+      packing up your whole life to move overseas? You have two options: ship it or
+      sell it. If possible, sell as many items as you can and donate the rest to charity.
+      Then, focus on packing the items you cannot live without. For us, these items
+      included our bicycles, computers, and photos. Remember, you can buy clothes
+      when you arrive! A quick word of advice: do not leave this task until last minute.
+      You always have more stuff than you realize. The added stress and anxiety of
+      having to get rid of any remaining items is the last thing you need. Don't forget
+      to factor in the climate when packing clothes. You won't need heavy jackets
+      if you are moving to a place like Costa Rica. We didn't realize just how cold
+      the wind would be in the Netherlands and had to buy leather jackets after one
+      too many miserable days freezing our butts off.\r\n\r\n![ALT Bikes in Amsterdam](https://s3.amazonaws.com/ExpatsandAliens/Destinations/Moving%20to%20the%20Netherlands/Bikes!.jpg)
+      \r\n\r\n\r\n##The Journey Begins\r\n\r\nThe last few weeks before the move were
+      some of the hardest and most stressful. Leaving the beautiful city of Portland,
+      Oregon, the friends we made, and a good jobs with wonderful co-workers, was
+      bittersweet. Take the time to say goodbye to your loved ones, but don't forget
+      you are always just a plane ride away. You can always go back and visit. Or
+      better yet, have some of your friends and family come visit you in your new
+      country. Many of our friends have already come to visit Amsterdam. There will
+      be emotional moments leading up to the move, but that is normal. You may become
+      sad, mad, excited, and confused. It is all part of the process of not knowing
+      if you will find what you are looking for.  \r\n\r\nAs Mark Twain once said,
+      *“Twenty years from now you will be more disappointed by the things you didn’t
+      do than by the ones you did do. So throw off the bowlines, sail away from the
+      safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.”*
+      Life is an adventure. You have to live it. Moving abroad is no easy task. If
+      it was, more people would do it. Life is about pushing your limits and venturing
+      beyond your comfort zone. Take a chance!  For all you know, it could be the
+      best decision you ever make. Now we live in a beautiful neighborhood in Amsterdam
+      and our life is more ineteresting than ever before.\r\n\r\n![ALT Living in Amsterdam](https://s3.amazonaws.com/ExpatsandAliens/Destinations/Moving%20to%20the%20Netherlands/Our%20neighborhood.jpg)\r\n\r\n**Article
+      written by Kate Williamson**\r\n*Kate Williamson is an expat, a blogger, and
+      a chemist by education who began writing to discover herself all over again.
+      In addition to writing, she can be seen hiking and biking in the great outdoors,
+      enjoying a delicious dark beer, or attempting to speak Dutch. Kate currently
+      resides in Amsterdam with her family. Check out her personal [blog](dutchista.wordpress.com)
+      to learn more about her life in Amsterdam*\r\n"
+    - '1'
+    - Moving overseas was the most challenging decision Kate ever made. Looking back
+      now, she realized it was one of the best choices in her life. Learn how she
+      prepared to make the move abroad.
+    - moving overseas, moving abroad, moving to the netherlands, preparing to move
+      abroad, moving to amsterdam, visiting amsterdam
+    - '2014-09-15 04:12:28.630974'
+    - '2014-09-15 04:21:12.726853'
+    - false
+    - moving-abroad-finally-making-the-leap
+  - - '20'
+    - 'Retiring in Cambodia: Sam''s Life as an Expat Retiree'
+    - mistersmooth_20shutterstock_118625371.jpg
+    - "###Escaping the Humdrum of Life in America\r\n\r\n“I found America to be too
+      normal and predictable. Everybody is so much like me it wasn’t interesting,”
+      Sam Moffett says. “I just like the idea of being different. As an expat life
+      is more exciting.”\r\n\r\nHaving lived and worked in Asia for the majority of
+      his life, Sam feels that living in America doesn’t hold the same mystique as
+      his time spent abroad. Born in America, but raised in Korea as the child of
+      a medical missionary, Sam Moffett isn’t your usual expat. He speaks fluent Thai,
+      Korean, and passable Japanese.\r\n \r\nUpon finishing high school, Sam attended
+      multiple universities in America and finally obtained a degree from The American
+      Graduate School of International Management in Phoenix, Arizona.  After spending
+      his collegiate years in America, he felt the pull of Asia calling him back.
+      It worked out perfectly when he was recruited by an American company and sent
+      to Singapore where he stayed for five years. Due to multiple business acquisitions,
+      he wound up working for a Belgium company named Solvay where he was sent to
+      Thailand to manage their regional business activities. \r\n\r\n“While I was
+      working in Thailand I came over to Cambodia a few times on vacation and I just
+      found it to be pretty funky,” Sam says. “It’s really one of the last undeveloped
+      countries in Asia that you are free to come and go to.” \r\n\r\n\r\n###Retiring
+      in Cambodia\r\n![ALT Retiring in Sihanoukville, Cambodia](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/IMG_2718_2.jpg)\r\n\r\nRetiring
+      in 2004, Sam has been living in Cambodia ever since. After five years spent
+      in the capital of Phnom Penh, he decided it was time to move down to Sihanoukville
+      to enjoy the simpler life, beach town feel, and fresh air. “I own a house near
+      Santa Barbra, California but I really don’t enjoy spending time there,” he tells
+      me. “I can’t see myself ever moving back to America. As far as I’m concerned,
+      I’m here for the duration.”\r\n\r\nSam is in his 60’s and, as with many retirees,
+      healthcare is a concern. “I have a health insurance policy through a French
+      service provider with an office in Phnom Penh. They cover me for most everything.
+      The coverage is primarily for Cambodia but if something happens during my first
+      3 months anywhere outside of the country, I am fully covered. For each month
+      after, there is a declining rate of compensation. If I need any medical care
+      they cannot handle in Cambodia, they pay for my travel and medical expenses
+      to go to Thailand,” he says. Thailand is known for having exceptional medical
+      facilities comparable to what you can find in America at much more affordable
+      prices.  \r\n\r\n###Keeping Healthy Abroad\r\n![ALT Staying healthy abroad](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/IMG_2762.jpg)\r\n\r\nStaying
+      fit is a big part of Sam’s lifestyle and most days you can find him at the local
+      spa or involved in some other sporting activity with his expat friends. “I love
+      athletics so I spend a lot of time at the gym which helps me stay healthy. I
+      also play tennis regularly and swim almost every day. In a country where beers
+      are $0.50 and food is cheap it’s important to maintain a balance,” he says.
+      “If I were to leave Cambodia for any reason it would be because there aren’t
+      enough sporting facilities to keep me happy. I would love to see a golf course
+      here.” He may not have to wait too long. Cambodia is developing quickly and,
+      along with the increased number of expats moving to the region, there are more
+      and more affluent Cambodians every day looking to enjoy the same types of recreational
+      activities. In the last few years, three golf courses have opened in the capital
+      city of Phnom Penh and two in Siam Reap; another popular expat destination in
+      Cambodia. \r\n\r\nAfter Sam moved to Cambodia, a couple of his long time friends
+      from Canada came out to visit and also feel in love with Sihanoukville. They
+      have since moved here full time and are currently living in a house a few doors
+      down from him. He spends most of his time with them or a few other expats he
+      knows around town.\r\n\r\n###Cost of Living in Cambodia and Eating Out   \r\n![ALT
+      Cost of living Cambodia](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/IMG_2710.jpg)\r\n\r\nSam
+      lives on roughly $2,500 a month which affords him a comfortable lifestyle. He
+      lives in a large western style home in a quiet expat neighborhood with two bedrooms
+      and, because he isn’t a big fan of Cambodian food, eats mostly at western restaurants.
+      “I don’t cook, so I eat out three times a day,” Sam says. “I would like to see
+      some higher priced options for fine dining opening around town and I’m sure
+      that will come as the country continues to develop. Right now, I don’t have
+      a problem finding good food at a reasonable price. I can eat out as cheaply
+      as I could cook at home. I spend about $3 on breakfast, maybe $5 for lunch,
+      and $8 to $10 on dinner.”\r\n\r\n![ALT Cambodian Food](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/IMG_2716.jpg)\r\n\r\n“I’m
+      once burned and twice shy,” Sam says when talking about his distaste for Cambodian
+      food. “The first thing I tried here was prahok and I thought ‘my god, if this
+      is what all the food tastes like, I’ve got to get out of here.’” Prahok is a
+      stinky fermented fish paste often found as an accompaniment to Cambodian meals.
+      Most expats find the smell offensive enough, let alone the taste. There are
+      a number of other Cambodian dishes that are much more pleasant to the western
+      palate such as the famous Amok, a coconut milk curry generally made with fish
+      or Lok Lak; a pepper-based stir-fried beef dish. Owing to the French colonization
+      of Cambodia in the early 1900’s, crispy baguettes, pate, and coffee have become
+      staples of the Cambodian diet.\r\n\r\n![ALT Cambodian food](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/1530526_10154524018435425_7339068376265205026_n.jpg)\r\n<br></br>\r\n\r\n###Life
+      in Cambodia\r\n![ALT Living in Cambodia](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/IMG_2737.jpg)\r\n\r\n“My
+      favorite thing about living here is the ocean. I love being by the sea and the
+      water here is as nice as anywhere in the world,” Sam points out. “I also enjoy
+      being outside. You spend most of your time here outdoors either on the beach
+      or in open air restaurants and bars. Living here is conducive to a healthier
+      lifestyle. The air is fresh, traffic is never an issue, and I like the small
+      town atmosphere. I wouldn’t want to live in a big city like L.A. I see the same
+      people when I am driving around town which makes me feel like I know them. By
+      the time I find myself standing next to them somewhere I wind up saying ‘hi,
+      nice to see you again.’”\r\n\r\n“There are some rough edges to life here in
+      Cambodia that some people may not want to deal with, so I’d recommend anybody
+      considering moving out here to come and take a look first.” Sam offers by way
+      of advice. “I think Cambodia is well suited to people who have some sense of
+      adventure. Communication can sometimes be an issue and getting paperwork done
+      without the help of a Cambodia friend who speaks English can be difficult at
+      times. The infrastructure is also at a much lower level than you might find
+      in Thailand or Malaysia, but that’s part of the fun. I don’t think it would
+      come as a big surprise though to anybody who has done much traveling abroad.”\r\n\r\n![ALT
+      Cambodian Roads](https://s3.amazonaws.com/ExpatsandAliens/retiring/Sam%20Moffett%20Expat%20Profile/IMG_1570.jpg)\r\n\r\n
+      “Cambodia is changing faster than a lot of people realize. If you are inclined
+      to move here, I would come earlier rather than later,” Sam says. “Sihanoukville
+      might lose its small town feel and the visa situation could change too. Right
+      now it’s easy to stay permanently as opposed to Thailand or Vietnam where border
+      runs are a regular part of expat life.” One year business visas for Cambodia
+      cost only $280 and there are no financial or employment requirements to obtain
+      one. There is also no need to leave the country when the time comes to renew.
+      Just head down to your nearest travel agency with a couple of passport photos
+      and they will handle everything for you. \r\n\r\n“I’ve visited all of the countries
+      in Asia multiple times and I’ve been to Costa Rica which I liked, but not enough
+      to settle down there. I find the Cambodian culture and lifestyle to be so relaxed
+      and inviting that it appeals to me in a way the rest of the places don’t,” Sam
+      says. “Cambodia just feels right to me.”\r\n\r\n\r\n**Written by Brett Dvoretz**\r\n"
+    - '4'
+    - Retiring in Cambodia was one of the best Decisions Sam made. He tells us about
+      his life an a retired expat and the cost of living in Cambodia
+    - retire in Cambodia, retiring in Cambodia, cost of living in Cambodia, expat
+      in Cambodia, how to retire abroad, how to retire overseas
+    - '2014-09-17 06:38:44.427292'
+    - '2014-09-17 07:40:54.826624'
+    - true
+    - retiring-in-cambodia-sam-moffet-s-life-as-an-expat-retiree
 
 ---
 pages:
@@ -1211,6 +1630,7 @@ pages:
   - keyword
   - created_at
   - updated_at
+  - slug
   records: 
   - - '1'
     - Contact
@@ -1262,3 +1682,51 @@ pages:
     - ''
     - '2014-06-22 07:07:30.341613'
     - '2014-06-23 12:20:34.647781'
+    - 
+
+---
+categories:
+  columns:
+  - id
+  - name
+  - description
+  - created_at
+  - updated_at
+  - slug
+  records: 
+  - - '1'
+    - Destinations
+    - ''
+    - '2014-05-23 14:38:53.490929'
+    - '2014-05-31 14:09:23.105353'
+    - 
+  - - '2'
+    - Travel Tips
+    - ''
+    - '2014-05-23 14:53:19.352119'
+    - '2014-05-31 14:09:33.451875'
+    - 
+  - - '3'
+    - Making Money
+    - ''
+    - '2014-05-23 15:07:42.077199'
+    - '2014-05-31 14:09:42.34249'
+    - 
+  - - '4'
+    - Retiring
+    - ''
+    - '2014-05-23 15:07:54.326602'
+    - '2014-05-31 14:09:59.300576'
+    - 
+  - - '5'
+    - Moving
+    - ''
+    - '2014-05-23 15:08:05.481068'
+    - '2014-05-31 14:10:10.399777'
+    - 
+  - - '6'
+    - Staying Healthy
+    - ''
+    - '2014-05-31 14:10:25.998436'
+    - '2014-05-31 14:10:25.998436'
+    - 
