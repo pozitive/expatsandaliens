@@ -12,6 +12,9 @@
 %h1= @article.name
 = image_tag @article.image_url(:large).to_s, class: "main-image"
 = markdown @article.content
+
+= render 'shared/author', author: @article.author if @article.author.present?
+
 .addthis_sharing_toolbox
 %h3
   Category:

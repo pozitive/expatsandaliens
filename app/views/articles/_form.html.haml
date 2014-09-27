@@ -28,6 +28,10 @@
       = f.collection_select :category_id, Category.all, :id, :name
   .row
     .columns.small-12
+      = f.label :author_id
+      = f.collection_select :author_id, Author.all, :id, :name
+  .row
+    .columns.small-12
       = f.label :summary
       = f.text_field :summary
   .row

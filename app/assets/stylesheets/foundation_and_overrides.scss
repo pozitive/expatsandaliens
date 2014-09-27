@@ -1376,3 +1376,17 @@ textarea {
     }
 
 }
+/* Author */
+.author {
+    margin-bottom: rem-calc(30);
+    .small-block-grid-2 {
+	li:first-child {
+	width: 30%;
+	}
+    }
+    .small-block-grid-2 {
+	li:last-child {
+	    width: 70%;
+	}
+    }
+}

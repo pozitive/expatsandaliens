@@ -1,0 +1,11 @@
+.author
+  %p
+    %strong Article written by #{author.name}
+  %ul.small-block-grid-2
+    %li= image_tag author.avatar.medium if author.avatar.present?
+    %li= markdown author.bio
+  - if author.website.present?
+    %p Website: #{link_to author.website, author.website} 
+  - if author.email.present?
+    %p Email: #{mail_to author.email}
+
