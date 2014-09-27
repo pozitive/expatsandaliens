@@ -1326,6 +1326,7 @@ $topbar-link-bg-active-hover: scale-color($main-color, $lightness: -14%);
 }
 
 .recent-articles {
+    margin-bottom: rem-calc(50);
     img {
 	margin-bottom: rem-calc(20);
     }
@@ -1352,4 +1353,18 @@ textarea {
     margin-top: 100px;
     border: 1px solid #DDDDDD;
     padding-top: 20px;
+}
+
+/* Older articles */
+.older-articles {
+    .small-block-grid-2 {
+	li:first-child {
+	width: 20%;
+	}
+    }
+    .small-block-grid-2 {
+	li:last-child {
+	    width: 80%;
+	}
+    }
 }
