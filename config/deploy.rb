@@ -83,8 +83,7 @@ namespace :deploy do
 
   task :symlink_config do
     on roles(:app) do
-      # execute "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-      execute "ln -nfs #{shared_path}/config/application.yml #{release_path}/config/database.yml"
+      execute "ln -nfs #{shared_path}/config/application.yml #{release_path}/config/application.yml"
     end
   end
 
