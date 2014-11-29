@@ -19,7 +19,7 @@
   Category:
   = link_to @article.category.name, category_path(@article.category_id)
 
-.fb-comments{"data-colorscheme" => "light", "data-href" => "http://expatandaliens.com/#{article_path(@article)}", "data-numposts" => "5"}
+.fb-comments{"data-colorscheme" => "light", "data-href" => "http://expatsandaliens.com/#{article_path(@article)}", "data-numposts" => "5"}
 
 = render "shared/related", related_articles: Article.order("RANDOM()").where('id NOT IN (:id)', id: @article.id).limit(3)
 
